@@ -19,10 +19,12 @@ import {
   IonBadge,
   IonSelect,
   IonSelectOption,
-  IonIcon
+  IonIcon,
+  IonButton
 } from '@ionic/react';
 import { useParams } from 'react-router';
-import { filterOutline } from 'ionicons/icons';
+import { filterOutline, chevronForwardOutline, funnelOutline } from 'ionicons/icons';
+import { IonPopover } from '@ionic/react';
 import { DUMMY_BRANDS, Product } from '../data/dummyData';
 import ProductModal from '../components/ProductModal';
 
@@ -70,76 +72,165 @@ const BrandDetails: React.FC = () => {
 
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar color="primary">
+      <IonHeader className="ion-no-border">
+        <IonToolbar style={{ '--background': 'rgba(255, 255, 255, 0.95)', '--backdrop-filter': 'blur(10px)', '--min-height': '60px' }}>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/home" text="חזור" />
+            <IonBackButton 
+                defaultHref="/home" 
+                text="" 
+                icon={chevronForwardOutline}
+                style={{ 
+                    color: '#333', 
+                    background: 'rgba(0,0,0,0.05)', 
+                    borderRadius: '50%', 
+                    width: '40px', 
+                    height: '40px',
+                    marginLeft: '8px' 
+                }} 
+            />
           </IonButtons>
-          <IonTitle>{brand.name}</IonTitle>
+          
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <img src={brand.logo} alt={brand.name} style={{ height: '32px', maxWidth: '80px', objectFit: 'contain' }} />
+              <div style={{ paddingRight: '8px', borderRight: '1px solid #eee' }}>
+                 <div style={{ fontSize: '0.9rem', fontWeight: 700, color: '#333' }}>{brand.name}</div>
+                 <div style={{ fontSize: '0.7rem', color: '#666' }}>{brand.products.length} מבצעים</div>
+              </div>
+          </div>
         </IonToolbar>
-        <IonToolbar color="light">
-           <div style={{ display: 'flex', alignItems: 'center', paddingRight: '8px' }}>
+        
+        <IonToolbar style={{ '--background': '#fff', '--min-height': 'auto', 'padding': '0 8px 8px 8px' }}>
+           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <IonSearchbar 
                     value={searchText} 
                     onIonInput={e => setSearchText(e.detail.value!)} 
-                    placeholder="חיפוש..."
-                    style={{ direction: 'rtl', flexGrow: 1, paddingBottom: 0 }}
+                    placeholder="מה בא לך לחפש?"
+                    style={{ 
+                        direction: 'rtl', 
+                        flexGrow: 1, 
+                        padding: 0, 
+                        '--background': '#f4f4f4', 
+                        '--border-radius': '12px',
+                        '--placeholder-color': '#888',
+                        '--icon-color': '#555' 
+                    }}
                 ></IonSearchbar>
                 
-                <div style={{ width: '120px', marginLeft: '8px' }}>
-                    <IonSelect 
-                        value={sortBy} 
-                        placeholder="מיון" 
-                        interface="popover"
-                        onIonChange={e => setSortBy(e.detail.value)}
-                        style={{ '--padding-start': '0' }}
-                    >
-                        <IonSelectOption value="default">רגיל</IonSelectOption>
-                        <IonSelectOption value="price_asc">מחיר: נמוך לגבוה</IonSelectOption>
-                        <IonSelectOption value="price_desc">מחיר: גבוה לנמוך</IonSelectOption>
-                        <IonSelectOption value="discount">ההנחה הגדולה ביותר</IonSelectOption>
-                    </IonSelect>
-                </div>
+                <IonButton 
+                    id="trigger-sort-popover"
+                    fill="clear" 
+                    style={{ 
+                        '--color': '#333', 
+                        background: '#f4f4f4', 
+                        borderRadius: '12px', 
+                        height: '42px', 
+                        fontSize: '0.9rem',
+                        fontWeight: 600,
+                        margin: 0
+                    }}
+                >
+                    <IonIcon icon={funnelOutline} slot="icon-only" />
+                </IonButton>
+                
+                <IonPopover trigger="trigger-sort-popover" dismissOnSelect={true}>
+                    <IonContent class="ion-padding">
+                         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                            {[
+                                { val: 'default', label: 'מומלץ' },
+                                { val: 'price_asc', label: 'מחיר: נמוך לגבוה' },
+                                { val: 'price_desc', label: 'מחיר: גבוה לנמוך' },
+                                { val: 'discount', label: 'ההנחה הכי שווה' }
+                            ].map(opt => (
+                                <div 
+                                    key={opt.val}
+                                    onClick={() => { setSortBy(opt.val); document.querySelector('ion-popover')?.dismiss(); }}
+                                    style={{ 
+                                        padding: '12px', 
+                                        background: sortBy === opt.val ? '#f0f9ff' : 'transparent',
+                                        color: sortBy === opt.val ? '#007aff' : '#333',
+                                        borderRadius: '8px',
+                                        fontWeight: sortBy === opt.val ? 700 : 400
+                                    }}
+                                >
+                                    {opt.label}
+                                </div>
+                            ))}
+                         </div>
+                    </IonContent>
+                </IonPopover>
            </div>
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen className="ion-padding">
+      <IonContent fullscreen className="ion-padding" style={{ '--background': '#f8f9fa' }}>
         <IonGrid>
           <IonRow>
             {filteredProducts.map(product => (
-              <IonCol size="4" sizeMd="3" sizeLg="2" key={product.id} className="ion-margin-bottom">
+              <IonCol size="6" sizeMd="4" sizeLg="3" key={product.id} className="ion-margin-bottom">
                 <IonCard 
                     button 
                     onClick={() => setSelectedProduct(product)}
-                    style={{ height: '100%', display: 'flex', flexDirection: 'column', margin: '2px' }}
+                    style={{ 
+                        height: '100%', 
+                        margin: '4px', 
+                        borderRadius: '12px',
+                        background: '#fff',
+                        boxShadow: '0 4px 12px rgba(0,0,0,0.04)',
+                        border: '1px solid rgba(0,0,0,0.03)',
+                        overflow: 'hidden'
+                    }}
                 >
-                  <div style={{ position: 'relative' }}>
+                  <div style={{ position: 'relative', paddingTop: '133%' /* 3:4 Aspect Ratio */ }}>
                     <img 
                       src={product.image} 
                       alt={product.name} 
-                      style={{ height: '120px', width: '100%', objectFit: 'cover' }} 
+                      style={{ 
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                          width: '100%',
+                          height: '100%',
+                          objectFit: 'cover' 
+                      }} 
                     />
-                     <IonBadge color="danger" style={{ position: 'absolute', top: '5px', left: '5px', fontSize: '0.6rem' }}>
-                        מבצע
-                     </IonBadge>
+                     <div style={{ 
+                         position: 'absolute', 
+                         top: '8px', 
+                         left: '8px', 
+                         background: '#FF3B30', 
+                         color: 'white', 
+                         fontSize: '0.7rem', 
+                         fontWeight: 700,
+                         padding: '4px 8px',
+                         borderRadius: '4px',
+                         boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
+                     }}>
+                        SALE
+                     </div>
                   </div>
-                  <IonCardHeader style={{ padding: '8px' }}>
-                    <IonCardTitle style={{ fontSize: '0.8rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{product.name}</IonCardTitle>
-                  </IonCardHeader>
-                  <IonCardContent style={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: '8px' }}>
-                    <IonText color="medium" style={{ fontSize: '0.7rem', marginBottom: '5px', display: 'none' }}>
-                      {product.description}
-                    </IonText>
-                    <div>
-                        <IonText color="medium" style={{ textDecoration: 'line-through', marginLeft: '5px', fontSize: '0.7rem' }}>
-                        ₪{product.price.toFixed(0)}
-                        </IonText>
-                        <IonText color="danger" style={{ fontWeight: 'bold', fontSize: '0.9rem' }}>
-                        ₪{product.salePrice.toFixed(0)}
-                        </IonText>
+                  
+                  <div style={{ padding: '12px' }}>
+                    <div style={{ 
+                        fontSize: '0.85rem', 
+                        color: '#1c1c1e', 
+                        fontWeight: 500,
+                        whiteSpace: 'nowrap',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        marginBottom: '4px'
+                    }}>
+                        {product.name}
                     </div>
-                  </IonCardContent>
+                    
+                    <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
+                        <div style={{ fontSize: '1.1rem', fontWeight: 800, color: '#FF3B30' }}>
+                            ₪{product.salePrice.toFixed(0)}
+                        </div>
+                        <div style={{ fontSize: '0.8rem', textDecoration: 'line-through', color: '#8e8e93' }}>
+                            ₪{product.price.toFixed(0)}
+                        </div>
+                    </div>
+                  </div>
                 </IonCard>
               </IonCol>
             ))}
