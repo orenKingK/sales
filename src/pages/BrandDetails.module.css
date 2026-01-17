@@ -47,104 +47,183 @@
     padding: 0 8px 8px 8px;
 }
 
-.controlsContainer {
+
+.controlsRow {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
-.segment {
-    --background: var(--ion-color-light, #f4f4f4);
-    border-radius: 12px;
-    min-height: 40px;
-    width: 100%;
-    /* Ensure it spans full width to allow internal scrolling */
-    display: flex;
-    /* Fix for some flex issues */
-}
-
-.searchSortRow {
+/* Container for Search and Sort */
+.primaryControls {
     display: flex;
     align-items: center;
+    gap: 10px;
     width: 100%;
-    margin-top: 8px;
-    background: var(--ion-card-background, #ffffff);
-    border-radius: 50px;
-    /* Full pill shape */
-    padding: 2px 4px 2px 2px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    /* Premium shadow */
-    border: 1px solid rgba(0, 0, 0, 0.02);
-    /* Ensure it doesn't overflow screen */
-    box-sizing: border-box;
-    max-width: 100%;
 }
 
-.searchbar {
-    direction: rtl;
-    flex-grow: 1;
-    padding: 0 !important;
-    --background: transparent;
-    --box-shadow: none;
-    --placeholder-color: #888;
-    --icon-color: #333;
-    margin: 0;
-    height: 44px;
-    /* Standard visible height */
-    font-size: 0.9rem;
-    /* Smaller text */
+/* Desktop: Single row layout */
+@media (min-width: 768px) {
+    .controlsRow {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .primaryControls {
+        width: auto;
+        flex: 1;
+        /* Desktop: Search takes space, Sort is auto */
+    }
+
+    .searchContainer {
+        flex: 1;
+        max-width: 400px;
+    }
+
+    .filtersContainer {
+        flex: 2;
+        justify-content: center;
+        order: 2;
+        /* Put filters in middle on desktop */
+    }
+
+    .sortContainer {
+        width: auto;
+    }
+}
+
+/* Search Bar Styling */
+.searchContainer {
+    flex: 1;
+    /* Take remaining space */
+    position: relative;
     min-width: 0;
-    /* Allow shrinking for responsiveness */
+    /* Prevent flex overflow */
 }
 
-/* Fix for Ionic searchbar internal padding and text alignment */
-.searchbar :global(.searchbar-input-container) {
-    height: 100%;
+.searchInputWrapper {
+    display: flex;
+    align-items: center;
+    background: var(--ion-background-color);
+    border-radius: 50px;
+    /* Fully rounded */
+    padding: 0 16px;
+    height: 50px;
+    /* Taller for better touch */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    /* Softer shadow */
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
 }
 
-.searchbar :global(input) {
-    font-size: 0.9rem !important;
+.searchInputWrapper:focus-within {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+    border-color: var(--ion-color-primary);
+}
+
+.searchIcon {
+    font-size: 1.6rem;
+    /* Significantly Larger Icon */
+    color: var(--ion-color-medium);
+    margin-right: 12px;
+}
+
+.searchInput {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 1.1rem;
+    /* Readable size, no zoom */
+    outline: none;
+    color: var(--ion-text-color);
+    width: 100%;
+    padding: 0;
+    line-height: normal;
+}
+
+/* Filter Pills */
+.filtersContainer {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 4px 4px 8px 4px;
+    /* Add bottom padding */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    order: 3;
+    /* Filters LAST on mobile */
+}
+
+.filtersContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.filterPill {
+    white-space: nowrap;
+    padding: 10px 20px;
+    /* Larger targets */
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    background: var(--ion-color-light);
+    color: var(--ion-color-medium);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filterPill.active {
+    background: var(--ion-text-color);
+    color: var(--ion-background-color);
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+/* Sort Button */
+.sortContainer {
+    flex-shrink: 0;
+    /* Don't squash sort button */
 }
 
 .sortButton {
-    --background: transparent;
-    --color: var(--ion-text-color, #333);
-    width: 44px !important;
-    height: 44px !important;
-    margin: 0;
-    --box-shadow: none;
-    font-size: 1.2rem;
-    position: relative;
-}
-
-/* Optional vertical divider */
-.sortButton::before {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 10px;
-    bottom: 10px;
-    width: 1px;
-    background-color: #eee;
-}
-
-.popoverOption {
-    padding: 12px;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 16px;
+    height: 50px;
+    /* Match Search Height */
+    border-radius: 50px;
+    background: var(--ion-background-color);
+    color: var(--ion-text-color);
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     cursor: pointer;
+    white-space: nowrap;
 }
 
-.popoverOptionSelected {
-    background: var(--ion-color-light, #f0f9ff);
-    color: var(--ion-color-primary, #007aff);
-    font-weight: 700;
+.sortButtonText {
+    display: none;
+    /* Hidden by default on small mobile if needed, or: */
+    display: block;
 }
 
-.popoverOptionDefault {
-    background: transparent;
-    color: var(--ion-text-color, #333);
-    font-weight: 400;
+/* On very small screens, maybe hide text to prevent overflow */
+@media (max-width: 340px) {
+    .sortButtonText {
+        display: none;
+    }
+
+    .sortButton {
+        padding: 0 14px;
+    }
 }
+
 
 .popoverContainer {
     display: flex;
@@ -278,6 +357,32 @@
     width: 100%;
 }
 
-.categoryScroll::-webkit-scrollbar {
-    display: none;
+
+.noResultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.noResultsIcon {
+    font-size: 4rem;
+    color: var(--ion-color-medium);
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.noResultsTitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--ion-text-color);
+    margin-bottom: 8px;
+}
+
+.noResultsText {
+    font-size: 0.95rem;
+    color: var(--ion-color-medium);
 }
