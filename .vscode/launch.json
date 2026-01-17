@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run API",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/sales-api",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "start:dev"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run App",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/sales-app",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "dev"
+            ],
+            "console": "integratedTerminal"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run Both",
+            "configurations": [
+                "Run API",
+                "Run App"
+            ]
+        }
+    ]
+}
