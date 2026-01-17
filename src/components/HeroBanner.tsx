@@ -1,22 +1,15 @@
 import React from 'react';
-import { IonCard, IonCardContent, IonText, IonButton } from '@ionic/react';
+import { IonCard, IonCardContent, IonText } from '@ionic/react';
+import styles from './HeroBanner.module.css';
 
 const HeroBanner: React.FC = () => {
     return (
-        <IonCard style={{ 
-            marginTop: '10px', 
-            marginBottom: '20px', 
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', 
-            color: 'white',
-            borderRadius: '20px',
-            border: 'none',
-            overflow: 'visible'
-        }}>
-            <IonCardContent style={{ position: 'relative', padding: '24px' }}>
-                <div style={{ position: 'relative', zIndex: 2 }}>
+        <IonCard className={styles.card}>
+            <IonCardContent className={styles.content}>
+                <div className={styles.textContainer}>
                     <IonText color="light">
-                        <h1 style={{ margin: '0 0 8px 0', fontSize: '1.8rem', fontWeight: 800 }}>סייל מטורף!</h1>
-                        <p style={{ fontSize: '1.1rem', opacity: 0.9, margin: '0 0 16px 0' }}>
+                        <h1 className={styles.title}>סייל מטורף!</h1>
+                        <p className={styles.subtitle}>
                             עד 50% הנחה על כל מותגי האופנה והאלקטרוניקה. אל תפספסו!
                         </p>
                     </IonText>

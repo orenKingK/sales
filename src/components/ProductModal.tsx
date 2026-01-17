@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { 
     IonModal, 
     IonHeader, 
@@ -12,8 +12,9 @@ import {
     IonText,
     IonFooter
 } from '@ionic/react';
-import { closeOutline, cartOutline, shareSocialOutline } from 'ionicons/icons';
-import { Product } from '../data/dummyData';
+import { closeOutline, cartOutline } from 'ionicons/icons';
+import { Product } from '../services/api';
+import styles from './ProductModal.module.css';
 
 interface ProductModalProps {
     isOpen: boolean;
@@ -37,31 +38,34 @@ const ProductModal: React.FC<ProductModalProps> = ({ isOpen, onClose, product })
                 </IonToolbar>
             </IonHeader>
             <IonContent className="ion-padding">
-                 <div style={{ 
-                     borderRadius: '16px', 
-                     overflow: 'hidden', 
-                     marginBottom: '20px', 
-                     boxShadow: '0 4px 12px rgba(0,0,0,0.1)' 
-                 }}>
-                    <IonImg src={product.image} alt={product.name} style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+                 <div className={styles.imageContainer}>
+                    <IonImg 
+                        src={(product.availableColors && product.availableColors[0]?.colorCut?.url
+                            ? product.availableColors[0].colorCut.url.replace('{width}', '750')
+                            : product.image) + '.jpg'}
+                        alt={product.name} 
+                        className={styles.image} 
+                    />
                  </div>
                  
-                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                 <div className={styles.headerRow}>
                     <IonText color="dark">
-                        <h2 style={{ fontSize: '1.8rem', fontWeight: 'bold', margin: 0 }}>{product.name}</h2>
+                        <h2 className={styles.title}>{product.name}</h2>
                     </IonText>
-                     <div style={{ textAlign: 'left' }}>
-                        <IonText color="medium" style={{ textDecoration: 'line-through', fontSize: '1rem', display: 'block' }}>
-                             ₪{product.price.toFixed(0)}
-                        </IonText>
-                        <IonText color="danger" style={{ fontSize: '1.5rem', fontWeight: '900' }}>
+                     <div className={styles.priceContainer}>
+                        {product.price > product.salePrice && (
+                             <span className={styles.originalPrice}>
+                                 ₪{product.price.toFixed(0)}
+                             </span>
+                        )}
+                        <span className={styles.salePrice}>
                              ₪{product.salePrice.toFixed(0)}
-                        </IonText>
+                        </span>
                      </div>
                  </div>
 
                  <IonText color="medium">
-                     <p style={{ fontSize: '1.1rem', lineHeight: '1.6' }}>
+                     <p className={styles.description}>
                          {product.description}
                      </p>
                  </IonText>

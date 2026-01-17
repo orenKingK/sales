@@ -1,0 +1,31 @@
+.card {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    overflow: visible;
+}
+
+.content {
+    position: relative;
+    padding: 24px;
+}
+
+.textContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    margin: 0 0 8px 0;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    margin: 0 0 16px 0;
+}

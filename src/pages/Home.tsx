@@ -1,94 +1,102 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonGrid, IonRow, IonCol, IonButtons, IonButton, IonIcon, IonChip, IonLabel } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonGrid, IonRow, IonCol, IonButton, IonIcon, IonChip, IonLabel } from '@ionic/react';
 import { moon, sunny, notificationsOutline } from 'ionicons/icons';
 import { useState, useEffect, useMemo } from 'react';
 import BrandCard from '../components/BrandCard';
 import HeroBanner from '../components/HeroBanner';
-import { DUMMY_BRANDS } from '../data/dummyData';
-import './Home.css';
+import LoadingScreen from '../components/LoadingScreen';
+import { getBrands, Brand } from '../services/api';
+import styles from './Home.module.css';
 
 const Home: React.FC = () => {
     // Initialize state based on system preference
     const [isDark, setIsDark] = useState(() => window.matchMedia('(prefers-color-scheme: dark)').matches);
     const [selectedCategory, setSelectedCategory] = useState<string>('הכל');
-
-    const categories = ['הכל', ...Array.from(new Set(DUMMY_BRANDS.map(b => b.category)))];
-
-    const filteredBrands = useMemo(() => {
-        if (selectedCategory === 'הכל') return DUMMY_BRANDS;
-        return DUMMY_BRANDS.filter(b => b.category === selectedCategory);
-    }, [selectedCategory]);
+    const [brands, setBrands] = useState<Brand[]>([]);
+    const [categories, setCategories] = useState<string[]>(['הכל']);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-      // Apply initial theme class
-      document.documentElement.classList.toggle('ion-palette-dark', isDark);
+        const loadBrands = async () => {
+             try {
+                 setLoading(true);
+                 // Artificial delay for smooth loading experience if needed, or just fetch
+                 const fetchedBrands = await getBrands();
+                 setBrands(fetchedBrands);
+                 
+                 const uniqueCategories = Array.from(new Set(fetchedBrands.map(b => b.category)));
+                 setCategories(['הכל', ...uniqueCategories]);
+             } catch (error) {
+                 console.error("Failed to load brands", error);
+             } finally {
+                 setLoading(false);
+             }
+        };
+        loadBrands();
     }, []);
 
+    const filteredBrands = useMemo(() => {
+        if (selectedCategory === 'הכל') return brands;
+        return brands.filter(b => b.category === selectedCategory);
+    }, [selectedCategory, brands]);
+
+    useEffect(() => {
+      // Apply theme class whenever isDark changes
+      document.documentElement.classList.toggle('ion-palette-dark', isDark);
+    }, [isDark]);
+
     const toggleTheme = () => {
-        const newIsDark = !isDark;
-        setIsDark(newIsDark);
-        document.documentElement.classList.toggle('ion-palette-dark', newIsDark);
+        setIsDark(!isDark);
     };
+
+  if (loading) {
+      return <LoadingScreen />;
+  }
 
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
-        <IonToolbar style={{ 
+        <IonToolbar className={styles.toolbar} style={{ 
             '--background': isDark ? '#1f1f1f' : '#ffffff', 
-            'padding': '8px 16px',
             'boxShadow': isDark ? '0 1px 0 rgba(255,255,255,0.05)' : 'none',
             'borderBottom': isDark ? 'none' : '1px solid #f0f0f0',
-            'zIndex': 10
         }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <div style={{ 
-                    width: '40px', 
-                    height: '40px', 
-                    background: 'linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%)', 
-                    borderRadius: '12px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    boxShadow: '0 4px 10px rgba(255, 107, 107, 0.3)'
-                }}>
-                    <span style={{ color: 'white', fontWeight: '900', fontSize: '20px' }}>%</span>
+          <div className={styles.logoContainer}>
+             <div className={styles.logoWrapper}>
+                <div className={styles.logoIcon}>
+                    <span className={styles.logoSymbol}>%</span>
                 </div>
                 <div>
-                    <div style={{ fontSize: '0.8rem', color: isDark ? '#999' : '#666', fontWeight: 500 }}>ברוכים הבאים 👋</div>
-                    <IonTitle style={{ padding: 0, fontSize: '1.5rem', fontWeight: 800, letterSpacing: '-0.5px', color: isDark ? '#fff' : '#000' }}>
-                        Sales<span style={{ color: '#FF6B6B' }}>App</span>
+                    <div className={`${styles.greeting} ${isDark ? styles.dark : ''}`}>ברוכים הבאים 👋</div>
+                    <IonTitle className={`${styles.appTitle} ${isDark ? styles.dark : ''}`}>
+                        51%
                     </IonTitle>
                 </div>
              </div>
              
-             <div style={{ display: 'flex', gap: '8px' }}>
+             <div className={styles.actions}>
                 <IonButton 
                     shape="round" 
                     className="ion-no-padding"
                     style={{ 
                         '--background': isDark ? '#333333' : '#f0f0f0',
-                        'width': '44px',
-                        'height': '44px',
-                        '--border-radius': '12px',
-                        'color': isDark ? '#ffffff' : '#000000'
+                        'color': isDark ? '#ffffff' : '#000000',
+                        width: '44px', height: '44px', '--border-radius': '12px'
                     }}
                 >
-                    <IonIcon slot="icon-only" icon={notificationsOutline} style={{ color: isDark ? '#ffffff' : '#000000' }} />
+                    <IonIcon slot="icon-only" icon={notificationsOutline} />
                 </IonButton>
 
                 <IonButton 
                     onClick={toggleTheme} 
                     shape="round" 
                     className="ion-no-padding"
-                    style={{ 
-                         '--background': isDark ? '#333333' : '#f0f0f0',
-                        'width': '44px',
-                        'height': '44px',
-                        '--border-radius': '12px',
-                         'color': isDark ? '#fbbf24' : '#555'
+                     style={{ 
+                        '--background': isDark ? '#333333' : '#f0f0f0',
+                         'color': isDark ? '#fbbf24' : '#555',
+                         width: '44px', height: '44px', '--border-radius': '12px'
                     }}
                 >
-                    <IonIcon slot="icon-only" icon={isDark ? sunny : moon} style={{ color: isDark ? '#fbbf24' : '#000000' }} />
+                    <IonIcon slot="icon-only" icon={isDark ? sunny : moon} />
                 </IonButton>
             </div>
           </div>
@@ -98,7 +106,7 @@ const Home: React.FC = () => {
         
         <HeroBanner />
 
-        <div className="category-scroll">
+        <div className={styles.categoryScroll}>
             {categories.map(cat => (
                 <IonChip 
                     key={cat} 

@@ -1,9 +1,9 @@
-import React, { useState, useMemo } from 'react';
+
+import { useState, useMemo, useEffect, useRef } from 'react';
 import { 
   IonContent, 
   IonHeader, 
   IonPage, 
-  IonTitle, 
   IonToolbar, 
   IonButtons, 
   IonBackButton, 
@@ -12,59 +12,130 @@ import {
   IonRow,
   IonCol,
   IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardContent,
-  IonText,
-  IonBadge,
-  IonSelect,
-  IonSelectOption,
   IonIcon,
-  IonButton
+  IonButton,
+  IonLabel,
+  IonPopover,
+  IonSegment,
+  IonSegmentButton,
+  IonInfiniteScroll,
+  IonInfiniteScrollContent
 } from '@ionic/react';
 import { useParams } from 'react-router';
-import { filterOutline, chevronForwardOutline, funnelOutline } from 'ionicons/icons';
-import { IonPopover } from '@ionic/react';
-import { DUMMY_BRANDS, Product } from '../data/dummyData';
+import { funnelOutline, chevronForwardOutline } from 'ionicons/icons';
 import ProductModal from '../components/ProductModal';
+import LoadingScreen from '../components/LoadingScreen';
+import { getBrandById, getBrandSales, Brand, Product } from '../services/api';
+import styles from './BrandDetails.module.css';
 
 const BrandDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
+  const contentRef = useRef<HTMLIonContentElement>(null);
+  const isFetching = useRef(false);
+  
+  // Filter States
   const [searchText, setSearchText] = useState('');
   const [sortBy, setSortBy] = useState<string>('default');
+  const [selectedType, setSelectedType] = useState<string>('all');
+  
+  // Data States
+  const [brand, setBrand] = useState<Brand | null>(null);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [page, setPage] = useState(1);
+  const [totalItems, setTotalItems] = useState(0);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [infiniteDisabled, setInfiniteDisabled] = useState(false);
+  
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
-  const brand = DUMMY_BRANDS.find(b => b.id === id);
+  // Initial Brand Fetch
+  useEffect(() => {
+      const fetchBrandInfo = async () => {
+          try {
+              const brandData = await getBrandById(id);
+              setBrand(brandData);
+          } catch (error) {
+              console.error("Error fetching brand:", error);
+          }
+      };
+      if (id) fetchBrandInfo();
+  }, [id]);
 
-  const filteredProducts = useMemo(() => {
-    if (!brand) return [];
-    
-    let products = [...brand.products];
+  // Main Data Fetcher
+  const fetchData = async (reset: boolean = false) => {
+      if (!brand) return;
+      if (isFetching.current) return;
 
-    // Filter
-    if (searchText) {
-        products = products.filter(p => 
-            p.name.includes(searchText) || p.description.includes(searchText)
-        );
-    }
+      try {
+          isFetching.current = true;
+          if (reset) {
+              setLoading(true);
+              setInfiniteDisabled(true); // Disable infinite scroll during reset to prevent double firing
+          }
+          
+          const currentPage = reset ? 1 : page;
+          const limit = 20;
 
-    // Sort
-    switch (sortBy) {
-        case 'price_asc':
-            products.sort((a, b) => a.salePrice - b.salePrice);
-            break;
-        case 'price_desc':
-            products.sort((a, b) => b.salePrice - a.salePrice);
-            break;
-        case 'discount':
-            products.sort((a, b) => (b.price - b.salePrice) - (a.price - a.salePrice));
-            break;
-        default:
-            break;
-    }
+          if (brand.id === '1') { // Zara logic
+              const result = await getBrandSales('zara', {
+                  page: currentPage,
+                  limit,
+                  productType: selectedType,
+                  search: searchText,
+                  sortBy
+              });
 
-    return products;
-  }, [brand, searchText, sortBy]);
+              if (reset) {
+                  setProducts(result.items);
+                  setCategories(['all', ...result.facets.productTypes]);
+              } else {
+                  setProducts(prev => [...prev, ...result.items]);
+              }
+
+              setTotalItems(result.total);
+              
+              // Only enable infinite scroll if we have more pages
+              // And wait a moment to ensure DOM updated
+              const hasMore = result.items.length === limit;
+              setTimeout(() => {
+                  setInfiniteDisabled(!hasMore);
+              }, 100);
+              
+              setPage(currentPage + 1);
+
+          } else {
+              setProducts(brand.products);
+              setTotalItems(brand.products.length);
+              setInfiniteDisabled(true);
+          }
+
+      } catch (error) {
+          console.error("Error fetching sales:", error);
+      } finally {
+          setLoading(false);
+          isFetching.current = false;
+      }
+  };
+
+  // Trigger fetch when filters change
+  useEffect(() => {
+     if (brand) {
+         // Reset scroll position immediately
+         contentRef.current?.scrollToTop(0);
+         fetchData(true);
+     }
+  }, [brand, searchText, sortBy, selectedType]);
+
+  // Handle Infinite Scroll
+  const loadMore = async (ev: any) => {
+      await fetchData(false);
+      ev.target.complete();
+  };
+
+  if (loading && products.length === 0) {
+      return <LoadingScreen />;
+  }
 
   if (!brand) {
     return <div>מותג לא נמצא</div>;
@@ -73,162 +144,134 @@ const BrandDetails: React.FC = () => {
   return (
     <IonPage>
       <IonHeader className="ion-no-border">
-        <IonToolbar style={{ '--background': 'rgba(255, 255, 255, 0.95)', '--backdrop-filter': 'blur(10px)', '--min-height': '60px' }}>
+        <IonToolbar className={styles.toolbarTitle}>
           <IonButtons slot="start">
             <IonBackButton 
                 defaultHref="/home" 
                 text="" 
                 icon={chevronForwardOutline}
-                style={{ 
-                    color: '#333', 
-                    background: 'rgba(0,0,0,0.05)', 
-                    borderRadius: '50%', 
-                    width: '40px', 
-                    height: '40px',
-                    marginLeft: '8px' 
-                }} 
+                className={styles.backButton}
             />
           </IonButtons>
           
-          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <img src={brand.logo} alt={brand.name} style={{ height: '32px', maxWidth: '80px', objectFit: 'contain' }} />
-              <div style={{ paddingRight: '8px', borderRight: '1px solid #eee' }}>
-                 <div style={{ fontSize: '0.9rem', fontWeight: 700, color: '#333' }}>{brand.name}</div>
-                 <div style={{ fontSize: '0.7rem', color: '#666' }}>{brand.products.length} מבצעים</div>
+          <div className={styles.brandHeader}>
+              <img src={brand.logo} alt={brand.name} className={styles.brandLogo} />
+              <div className={styles.brandInfo}>
+                 <div className={styles.brandName}>{brand.name}</div>
+                 <div className={styles.brandCount}>{totalItems} מבצעים</div>
               </div>
           </div>
         </IonToolbar>
         
-        <IonToolbar style={{ '--background': '#fff', '--min-height': 'auto', 'padding': '0 8px 8px 8px' }}>
-           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                <IonSearchbar 
-                    value={searchText} 
-                    onIonInput={e => setSearchText(e.detail.value!)} 
-                    placeholder="מה בא לך לחפש?"
-                    style={{ 
-                        direction: 'rtl', 
-                        flexGrow: 1, 
-                        padding: 0, 
-                        '--background': '#f4f4f4', 
-                        '--border-radius': '12px',
-                        '--placeholder-color': '#888',
-                        '--icon-color': '#555' 
-                    }}
-                ></IonSearchbar>
-                
-                <IonButton 
-                    id="trigger-sort-popover"
-                    fill="clear" 
-                    style={{ 
-                        '--color': '#333', 
-                        background: '#f4f4f4', 
-                        borderRadius: '12px', 
-                        height: '42px', 
-                        fontSize: '0.9rem',
-                        fontWeight: 600,
-                        margin: 0
-                    }}
-                >
-                    <IonIcon icon={funnelOutline} slot="icon-only" />
-                </IonButton>
-                
-                <IonPopover trigger="trigger-sort-popover" dismissOnSelect={true}>
-                    <IonContent class="ion-padding">
-                         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                            {[
-                                { val: 'default', label: 'מומלץ' },
-                                { val: 'price_asc', label: 'מחיר: נמוך לגבוה' },
-                                { val: 'price_desc', label: 'מחיר: גבוה לנמוך' },
-                                { val: 'discount', label: 'ההנחה הכי שווה' }
-                            ].map(opt => (
-                                <div 
-                                    key={opt.val}
-                                    onClick={() => { setSortBy(opt.val); document.querySelector('ion-popover')?.dismiss(); }}
-                                    style={{ 
-                                        padding: '12px', 
-                                        background: sortBy === opt.val ? '#f0f9ff' : 'transparent',
-                                        color: sortBy === opt.val ? '#007aff' : '#333',
-                                        borderRadius: '8px',
-                                        fontWeight: sortBy === opt.val ? 700 : 400
-                                    }}
-                                >
-                                    {opt.label}
-                                </div>
-                            ))}
-                         </div>
-                    </IonContent>
-                </IonPopover>
+        <IonToolbar className={styles.filterToolbar}>
+           <div className={styles.controlsContainer}>
+                {/* Dynamic Product Type Segment */}
+                {categories.length > 1 && (
+                    <IonSegment 
+                        scrollable={true}
+                        value={selectedType}
+                        onIonChange={e => setSelectedType(e.detail.value! as string)}
+                        className={styles.segment}
+                    >
+                        {categories.map(cat => (
+                            <IonSegmentButton key={cat} value={cat}>
+                                <IonLabel>{cat === 'all' ? 'הכל' : cat}</IonLabel>
+                            </IonSegmentButton>
+                        ))}
+                    </IonSegment>
+                )}
+
+                <div className={styles.searchSortRow}>
+                    <IonSearchbar 
+                        mode="ios"
+                        value={searchText} 
+                        onIonInput={e => setSearchText(e.detail.value!)} 
+                        placeholder="חיפוש..."
+                        className={styles.searchbar}
+                        showClearButton="focus"
+                        debounce={500}
+                    ></IonSearchbar>
+                    
+                    <IonButton 
+                        id="trigger-sort-popover"
+                        fill="clear"
+                        className={styles.sortButton}
+                    >
+                         <IonIcon icon={funnelOutline} />
+                    </IonButton>
+                    
+                    <IonPopover trigger="trigger-sort-popover" dismissOnSelect={true}>
+                        <IonContent class="ion-padding">
+                             <div className={styles.popoverContainer}>
+                                {[
+                                    { val: 'default', label: 'מומלץ' },
+                                    { val: 'price_asc', label: 'מחיר: נמוך לגבוה' },
+                                    { val: 'price_desc', label: 'מחיר: גבוה לנמוך' },
+                                    { val: 'discount', label: 'ההנחה הכי שווה' }
+                                ].map(opt => (
+                                    <div 
+                                        key={opt.val}
+                                        onClick={() => { setSortBy(opt.val); document.querySelector('ion-popover')?.dismiss(); }}
+                                        className={`${styles.popoverOption} ${sortBy === opt.val ? styles.popoverOptionSelected : styles.popoverOptionDefault}`}
+                                    >
+                                        {opt.label}
+                                    </div>
+                                ))}
+                             </div>
+                        </IonContent>
+                    </IonPopover>
+               </div>
            </div>
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen className="ion-padding" style={{ '--background': '#f8f9fa' }}>
+      <IonContent ref={contentRef} fullscreen className={`ion-padding ${styles.pageContent}`}>
         <IonGrid>
           <IonRow>
-            {filteredProducts.map(product => (
-              <IonCol size="6" sizeMd="4" sizeLg="3" key={product.id} className="ion-margin-bottom">
+            {products.map(product => (
+              <IonCol size="6" sizeMd="4" sizeLg="3" key={product.id} className={styles.productCol}>
                 <IonCard 
                     button 
                     onClick={() => setSelectedProduct(product)}
-                    style={{ 
-                        height: '100%', 
-                        margin: '4px', 
-                        borderRadius: '12px',
-                        background: '#fff',
-                        boxShadow: '0 4px 12px rgba(0,0,0,0.04)',
-                        border: '1px solid rgba(0,0,0,0.03)',
-                        overflow: 'hidden'
-                    }}
+                    className={styles.productCard}
                 >
-                  <div style={{ position: 'relative', paddingTop: '133%' /* 3:4 Aspect Ratio */ }}>
+                  <div className={styles.productImageContainer}>
                     <img 
-                      src={product.image} 
+                      src={(product.availableColors && product.availableColors[0]?.colorCut?.url 
+                          ? product.availableColors[0].colorCut.url.replace('{width}', '750')
+                          : product.image) + '.jpg'}
                       alt={product.name} 
-                      style={{ 
-                          position: 'absolute',
-                          top: 0,
-                          left: 0,
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover' 
-                      }} 
+                      className={styles.productImage}
                     />
-                     <div style={{ 
-                         position: 'absolute', 
-                         top: '8px', 
-                         left: '8px', 
-                         background: '#FF3B30', 
-                         color: 'white', 
-                         fontSize: '0.7rem', 
-                         fontWeight: 700,
-                         padding: '4px 8px',
-                         borderRadius: '4px',
-                         boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
-                     }}>
-                        SALE
-                     </div>
+                     {product.price > product.salePrice && (
+                       <div className={styles.discountBadge}>
+                          {product.discountPercentage 
+                              ? `-${product.discountPercentage.replace('%', '')}%` 
+                              : `-${Math.round(((product.price - product.salePrice) / product.price) * 100)}%`
+                          }
+                       </div>
+                     )}
+                     {product.gender && (
+                         <div className={styles.genderBadge}>
+                             {product.gender === 'Men' ? 'גברים' : 'נשים'}
+                         </div>
+                     )}
                   </div>
                   
-                  <div style={{ padding: '12px' }}>
-                    <div style={{ 
-                        fontSize: '0.85rem', 
-                        color: '#1c1c1e', 
-                        fontWeight: 500,
-                        whiteSpace: 'nowrap',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        marginBottom: '4px'
-                    }}>
+                  <div className={styles.productInfo}>
+                    <div className={styles.productName}>
                         {product.name}
                     </div>
                     
-                    <div style={{ display: 'flex', alignItems: 'baseline', gap: '6px' }}>
-                        <div style={{ fontSize: '1.1rem', fontWeight: 800, color: '#FF3B30' }}>
+                    <div className={styles.priceRow}>
+                        <div className={product.price > product.salePrice ? styles.salePrice : styles.normalPrice}>
                             ₪{product.salePrice.toFixed(0)}
                         </div>
-                        <div style={{ fontSize: '0.8rem', textDecoration: 'line-through', color: '#8e8e93' }}>
-                            ₪{product.price.toFixed(0)}
-                        </div>
+                        {product.price > product.salePrice && (
+                            <div className={styles.originalPrice}>
+                                ₪{product.price.toFixed(0)}
+                            </div>
+                        )}
                     </div>
                   </div>
                 </IonCard>
@@ -236,6 +279,17 @@ const BrandDetails: React.FC = () => {
             ))}
           </IonRow>
         </IonGrid>
+
+        <IonInfiniteScroll
+            onIonInfinite={loadMore}
+            threshold="100px"
+            disabled={infiniteDisabled}
+        >
+            <IonInfiniteScrollContent
+                loadingSpinner="bubbles"
+                loadingText="טוען עוד מוצרים..."
+            />
+        </IonInfiniteScroll>
 
         <ProductModal 
             isOpen={!!selectedProduct} 

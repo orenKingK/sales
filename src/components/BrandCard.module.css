@@ -1,0 +1,82 @@
+.card {
+    height: 100%;
+    margin: 0;
+    background: var(--ion-card-background, #fff);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.heroImageArea {
+    height: 140px;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    filter: grayscale(0%);
+}
+
+.categoryBadge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255, 107, 107, 0.1);
+    color: #FF6B6B;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.cardHeader {
+    padding: 16px;
+    padding-top: 8px;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--ion-text-color);
+}
+
+.subtitleContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.statusDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2DD36F;
+}
+
+.cardSubtitle {
+    text-transform: none;
+    font-size: 0.9rem;
+    color: var(--ion-color-medium);
+    font-weight: 500;
+}
+
+.productCount {
+    color: var(--ion-text-color);
+    font-weight: 700;
+}
