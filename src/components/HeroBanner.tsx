@@ -7,7 +7,7 @@ const HeroBanner: React.FC = () => {
         <IonCard className={styles.card}>
             <IonCardContent className={styles.content}>
                 <div className={styles.textContainer}>
-                    <IonText color="light">
+                    <IonText>
                         <h1 className={styles.title}>סייל מטורף!</h1>
                         <p className={styles.subtitle}>
                             עד 50% הנחה על כל מותגי האופנה והאלקטרוניקה. אל תפספסו!

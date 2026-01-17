@@ -1,5 +1,5 @@
 .toolbarTitle {
-    --background: rgba(255, 255, 255, 0.95);
+    --background: var(--ion-background-color, #fff);
     --backdrop-filter: blur(10px);
     --min-height: 60px;
 }
@@ -33,16 +33,16 @@
 .brandName {
     font-size: 0.9rem;
     font-weight: 700;
-    color: #333;
+    color: var(--ion-text-color, #333);
 }
 
 .brandCount {
     font-size: 0.7rem;
-    color: #666;
+    color: var(--ion-color-medium, #666);
 }
 
 .filterToolbar {
-    --background: #fff;
+    --background: var(--ion-background-color, #fff);
     --min-height: auto;
     padding: 0 8px 8px 8px;
 }
@@ -54,7 +54,7 @@
 }
 
 .segment {
-    --background: #f4f4f4;
+    --background: var(--ion-color-light, #f4f4f4);
     border-radius: 12px;
     min-height: 40px;
     width: 100%;
@@ -68,7 +68,7 @@
     align-items: center;
     width: 100%;
     margin-top: 8px;
-    background: #ffffff;
+    background: var(--ion-card-background, #ffffff);
     border-radius: 50px;
     /* Full pill shape */
     padding: 2px 4px 2px 2px;
@@ -108,7 +108,7 @@
 
 .sortButton {
     --background: transparent;
-    --color: #333;
+    --color: var(--ion-text-color, #333);
     width: 44px !important;
     height: 44px !important;
     margin: 0;
@@ -135,14 +135,14 @@
 }
 
 .popoverOptionSelected {
-    background: #f0f9ff;
-    color: #007aff;
+    background: var(--ion-color-light, #f0f9ff);
+    color: var(--ion-color-primary, #007aff);
     font-weight: 700;
 }
 
 .popoverOptionDefault {
     background: transparent;
-    color: #333;
+    color: var(--ion-text-color, #333);
     font-weight: 400;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .pageContent {
-    --background: #f8f9fa;
+    --background: var(--ion-background-color, #f8f9fa);
 }
 
 .productCol {
@@ -173,7 +173,7 @@
     height: 100%;
     margin: 4px;
     border-radius: 12px;
-    background: #fff;
+    background: var(--ion-card-background, #fff);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
     border: 1px solid rgba(0, 0, 0, 0.03);
     overflow: hidden;
@@ -230,7 +230,7 @@
 
 .productName {
     font-size: 0.85rem;
-    color: #1c1c1e;
+    color: var(--ion-text-color, #1c1c1e);
     font-weight: 500;
     white-space: nowrap;
     overflow: hidden;
@@ -256,7 +256,7 @@
 .normalPrice {
     font-size: 1.1rem;
     font-weight: 800;
-    color: #000;
+    color: var(--ion-text-color, #000);
 }
 
 .originalPrice {

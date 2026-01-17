@@ -111,8 +111,16 @@ const Home: React.FC = () => {
                 <IonChip 
                     key={cat} 
                     onClick={() => setSelectedCategory(cat)}
-                    color={selectedCategory === cat ? 'primary' : 'medium'}
+                    // Use 'dark' for high contrast text where supported, or default
+                    color={selectedCategory === cat ? 'dark' : undefined} 
                     outline={selectedCategory !== cat}
+                    style={{
+                        '--background': selectedCategory === cat ? (isDark ? '#000' : '#fff') : 'transparent',
+                        '--color': selectedCategory === cat ? (isDark ? '#fff' : '#000') : 'inherit',
+                        'border': '1px solid currentColor',
+                        'fontWeight': selectedCategory === cat ? 'bold' : 'normal'
+                    }}
+                    className={selectedCategory === cat && isDark ? 'highlight-chip-dark' : ''}
                 >
                     <IonLabel>{cat}</IonLabel>
                 </IonChip>
