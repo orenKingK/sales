@@ -1,0 +1,366 @@
+{
+  "productId": 452708227,
+  "name": "חולצה עם אפקט קמטים",
+  "sizes": [
+    {
+      "size": "S",
+      "sku": 452706207,
+      "availability": "in_stock",
+      "stores": [
+        {
+          "name": "דיזינגוף",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עזריאלי תל-אביב",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "TLV קניון",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "רמ\"א",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון איילון",
+          "city": "רמת גן",
+          "status": "In Stock"
+        },
+        {
+          "name": "ביג פשן גלילות",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "הקניון הגדול פ\"ת",
+          "city": "פ\"ת",
+          "status": "In Stock"
+        },
+        {
+          "name": "חולון",
+          "city": "חולון",
+          "status": "In Stock"
+        },
+        {
+          "name": "הזהב",
+          "city": "ראשל\"צ",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון רננים",
+          "city": "רעננה",
+          "status": "In Stock"
+        },
+        {
+          "name": "כפ\"ס- קניון G",
+          "city": "כפ\"ס",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עיר ימים",
+          "city": "נתניה",
+          "status": "In Stock"
+        },
+        {
+          "name": "רחובות",
+          "city": "רחובות",
+          "status": "In Stock"
+        }
+      ]
+    },
+    {
+      "size": "M",
+      "sku": 452706209,
+      "availability": "in_stock",
+      "stores": [
+        {
+          "name": "דיזינגוף",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עזריאלי תל-אביב",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "TLV קניון",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "רמ\"א",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון איילון",
+          "city": "רמת גן",
+          "status": "In Stock"
+        },
+        {
+          "name": "ביג פשן גלילות",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "הקניון הגדול פ\"ת",
+          "city": "פ\"ת",
+          "status": "In Stock"
+        },
+        {
+          "name": "חולון",
+          "city": "חולון",
+          "status": "In Stock"
+        },
+        {
+          "name": "הזהב",
+          "city": "ראשל\"צ",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון רננים",
+          "city": "רעננה",
+          "status": "In Stock"
+        },
+        {
+          "name": "כפ\"ס- קניון G",
+          "city": "כפ\"ס",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עיר ימים",
+          "city": "נתניה",
+          "status": "In Stock"
+        },
+        {
+          "name": "רחובות",
+          "city": "רחובות",
+          "status": "In Stock"
+        }
+      ]
+    },
+    {
+      "size": "L",
+      "sku": 452706210,
+      "availability": "out_of_stock",
+      "stores": [
+        {
+          "name": "דיזינגוף",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עזריאלי תל-אביב",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "TLV קניון",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "רמ\"א",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון איילון",
+          "city": "רמת גן",
+          "status": "In Stock"
+        },
+        {
+          "name": "ביג פשן גלילות",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "הקניון הגדול פ\"ת",
+          "city": "פ\"ת",
+          "status": "In Stock"
+        },
+        {
+          "name": "חולון",
+          "city": "חולון",
+          "status": "In Stock"
+        },
+        {
+          "name": "הזהב",
+          "city": "ראשל\"צ",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון רננים",
+          "city": "רעננה",
+          "status": "In Stock"
+        },
+        {
+          "name": "כפ\"ס- קניון G",
+          "city": "כפ\"ס",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עיר ימים",
+          "city": "נתניה",
+          "status": "In Stock"
+        },
+        {
+          "name": "רחובות",
+          "city": "רחובות",
+          "status": "In Stock"
+        }
+      ]
+    },
+    {
+      "size": "XL",
+      "sku": 452706211,
+      "availability": "low_on_stock",
+      "stores": [
+        {
+          "name": "דיזינגוף",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עזריאלי תל-אביב",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "TLV קניון",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "רמ\"א",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון איילון",
+          "city": "רמת גן",
+          "status": "In Stock"
+        },
+        {
+          "name": "ביג פשן גלילות",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "הקניון הגדול פ\"ת",
+          "city": "פ\"ת",
+          "status": "In Stock"
+        },
+        {
+          "name": "חולון",
+          "city": "חולון",
+          "status": "In Stock"
+        },
+        {
+          "name": "הזהב",
+          "city": "ראשל\"צ",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון רננים",
+          "city": "רעננה",
+          "status": "In Stock"
+        },
+        {
+          "name": "כפ\"ס- קניון G",
+          "city": "כפ\"ס",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עיר ימים",
+          "city": "נתניה",
+          "status": "In Stock"
+        },
+        {
+          "name": "רחובות",
+          "city": "רחובות",
+          "status": "In Stock"
+        }
+      ]
+    },
+    {
+      "size": "XXL",
+      "sku": 452706212,
+      "availability": "in_stock",
+      "stores": [
+        {
+          "name": "דיזינגוף",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עזריאלי תל-אביב",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "TLV קניון",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "רמ\"א",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון איילון",
+          "city": "רמת גן",
+          "status": "In Stock"
+        },
+        {
+          "name": "ביג פשן גלילות",
+          "city": "ת\"א",
+          "status": "In Stock"
+        },
+        {
+          "name": "הקניון הגדול פ\"ת",
+          "city": "פ\"ת",
+          "status": "In Stock"
+        },
+        {
+          "name": "חולון",
+          "city": "חולון",
+          "status": "In Stock"
+        },
+        {
+          "name": "הזהב",
+          "city": "ראשל\"צ",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון רננים",
+          "city": "רעננה",
+          "status": "In Stock"
+        },
+        {
+          "name": "כפ\"ס- קניון G",
+          "city": "כפ\"ס",
+          "status": "In Stock"
+        },
+        {
+          "name": "קניון עיר ימים",
+          "city": "נתניה",
+          "status": "In Stock"
+        },
+        {
+          "name": "רחובות",
+          "city": "רחובות",
+          "status": "In Stock"
+        }
+      ]
+    }
+  ]
+}

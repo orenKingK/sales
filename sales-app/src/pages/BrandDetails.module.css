@@ -1,0 +1,388 @@
+.toolbarTitle {
+    --background: var(--ion-background-color, #fff);
+    --backdrop-filter: blur(10px);
+    --min-height: 60px;
+}
+
+.backButton {
+    color: #333;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+.brandHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brandLogo {
+    height: 32px;
+    max-width: 80px;
+    object-fit: contain;
+}
+
+.brandInfo {
+    padding-right: 8px;
+    border-right: 1px solid #eee;
+}
+
+.brandName {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--ion-text-color, #333);
+}
+
+.brandCount {
+    font-size: 0.7rem;
+    color: var(--ion-color-medium, #666);
+}
+
+.filterToolbar {
+    --background: var(--ion-background-color, #fff);
+    --min-height: auto;
+    padding: 0 8px 8px 8px;
+}
+
+
+.controlsRow {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Container for Search and Sort */
+.primaryControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Desktop: Single row layout */
+@media (min-width: 768px) {
+    .controlsRow {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .primaryControls {
+        width: auto;
+        flex: 1;
+        /* Desktop: Search takes space, Sort is auto */
+    }
+
+    .searchContainer {
+        flex: 1;
+        max-width: 400px;
+    }
+
+    .filtersContainer {
+        flex: 2;
+        justify-content: center;
+        order: 2;
+        /* Put filters in middle on desktop */
+    }
+
+    .sortContainer {
+        width: auto;
+    }
+}
+
+/* Search Bar Styling */
+.searchContainer {
+    flex: 1;
+    /* Take remaining space */
+    position: relative;
+    min-width: 0;
+    /* Prevent flex overflow */
+}
+
+.searchInputWrapper {
+    display: flex;
+    align-items: center;
+    background: var(--ion-background-color);
+    border-radius: 50px;
+    /* Fully rounded */
+    padding: 0 16px;
+    height: 50px;
+    /* Taller for better touch */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    /* Softer shadow */
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+}
+
+.searchInputWrapper:focus-within {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+    border-color: var(--ion-color-primary);
+}
+
+.searchIcon {
+    font-size: 1.6rem;
+    /* Significantly Larger Icon */
+    color: var(--ion-color-medium);
+    margin-right: 12px;
+}
+
+.searchInput {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 1.1rem;
+    /* Readable size, no zoom */
+    outline: none;
+    color: var(--ion-text-color);
+    width: 100%;
+    padding: 0;
+    line-height: normal;
+}
+
+/* Filter Pills */
+.filtersContainer {
+    display: flex;
+    overflow-x: auto;
+    gap: 8px;
+    padding: 4px 4px 8px 4px;
+    /* Add bottom padding */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    order: 3;
+    /* Filters LAST on mobile */
+}
+
+.filtersContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.filterPill {
+    white-space: nowrap;
+    padding: 10px 20px;
+    /* Larger targets */
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    background: var(--ion-color-light);
+    color: var(--ion-color-medium);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filterPill.active {
+    background: var(--ion-text-color);
+    color: var(--ion-background-color);
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+/* Sort Button */
+.sortContainer {
+    flex-shrink: 0;
+    /* Don't squash sort button */
+}
+
+.sortButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 16px;
+    height: 50px;
+    /* Match Search Height */
+    border-radius: 50px;
+    background: var(--ion-background-color);
+    color: var(--ion-text-color);
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.sortButtonText {
+    display: none;
+    /* Hidden by default on small mobile if needed, or: */
+    display: block;
+}
+
+/* On very small screens, maybe hide text to prevent overflow */
+@media (max-width: 340px) {
+    .sortButtonText {
+        display: none;
+    }
+
+    .sortButton {
+        padding: 0 14px;
+    }
+}
+
+
+.popoverContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pageContent {
+    --background: var(--ion-background-color, #f8f9fa);
+}
+
+.productCol {
+    margin-bottom: 20px;
+    /* ion-margin-bottom substitute */
+}
+
+/* Product Card - duplicated from BrandCard styles or shared? 
+   Ideally separate component like ProductCard, but logic is inline in BrandDetails in original code.
+   I should extract it to ProductCard component for modularity as requested "make the code modular".
+   The original code had ProductCard inside BrandDetails map. 
+   I'll extract the inline styles here for now, but creating a ProductCard component would be better.
+   Given the instruction "make the code modular", I really should create a ProductCard.tsx. 
+*/
+
+.productCard {
+    height: 100%;
+    margin: 4px;
+    border-radius: 12px;
+    background: var(--ion-card-background, #fff);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+}
+
+.productImageContainer {
+    position: relative;
+    padding-top: 133%;
+    /* 3:4 Aspect Ratio */
+}
+
+.productImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.discountBadge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #10b981;
+    /* Positive Emerald Green */
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 800;
+    padding: 6px 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(16, 185, 129, 0.4);
+    z-index: 2;
+    letter-spacing: 0.5px;
+    transform: rotate(-2deg);
+}
+
+.genderBadge {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #333;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+}
+
+.productInfo {
+    padding: 12px;
+}
+
+.productName {
+    font-size: 0.85rem;
+    color: var(--ion-text-color, #1c1c1e);
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 4px;
+}
+
+.priceRow {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.salePrice {
+    font-size: 1.0rem;
+    /* Smaller to feel "cheaper" */
+    font-weight: 500;
+    /* Regular weight */
+    color: #059669;
+    /* Darker Emerald */
+}
+
+.normalPrice {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--ion-text-color, #000);
+}
+
+.originalPrice {
+    font-size: 1.2rem;
+    /* Bigger as anchor */
+    font-weight: 700;
+    /* Bold */
+    text-decoration: line-through;
+    color: #8e8e93;
+}
+
+.categoryScroll {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 4px;
+    gap: 8px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    width: 100%;
+}
+
+
+.noResultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.noResultsIcon {
+    font-size: 4rem;
+    color: var(--ion-color-medium);
+    margin-bottom: 16px;
+    opacity: 0.5;
+}
+
+.noResultsTitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--ion-text-color);
+    margin-bottom: 8px;
+}
+
+.noResultsText {
+    font-size: 0.95rem;
+    color: var(--ion-color-medium);
+}

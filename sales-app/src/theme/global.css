@@ -1,0 +1,39 @@
+:root {
+    --ion-font-family: 'Rubik', sans-serif;
+}
+
+body {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+/* Custom Scrollbar for Chips */
+.category-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.category-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Glassmorphism Card Style */
+ion-card {
+    border-radius: 16px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+ion-card:active {
+    transform: scale(0.98);
+}
+
+/* Dark Mode tweaks */
+.ion-palette-dark ion-card {
+    background: rgba(30, 30, 30, 0.8) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3) !important;
+}

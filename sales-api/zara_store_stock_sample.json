@@ -1,0 +1,1513 @@
+[
+  {
+    "datatype": "physicalStore",
+    "id": 3035,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man"
+    ],
+    "latitude": 32.07549,
+    "longitude": 34.775485,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "50, דיזינגוף"
+    ],
+    "city": "ת\"א",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "64332",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": []
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "דיזינגוף",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 3947,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.074146,
+    "longitude": 34.791767,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "132, דרך מנחם בגין"
+    ],
+    "city": "ת\"א",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "6701101",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "19:00",
+            "closeTime": "23:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:30",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "קניון עזריאלי תל-אביב",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 11581,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.06942,
+    "longitude": 34.78686,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "100, חשמונאים"
+    ],
+    "city": "ת\"א",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "67133",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "19:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "TLV קניון",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 3013,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.112732,
+    "longitude": 34.795784,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "40, איינשטיין"
+    ],
+    "city": "ת\"א",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "69102",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "18:30",
+            "closeTime": "22:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [
+      "entrega_online_automatica"
+    ],
+    "messages": [],
+    "radius": 30,
+    "name": "רמ\"א",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 3039,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.100227,
+    "longitude": 34.826683,
+    "isPickupAllowed": false,
+    "addressLines": [
+      "301, דרך אבא הילל סילבר"
+    ],
+    "city": "רמת גן",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "52594",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "קניון איילון",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 16515,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.14807,
+    "longitude": 34.805145,
+    "isPickupAllowed": false,
+    "addressLines": [
+      "אלוף יצחק רמת השרון"
+    ],
+    "city": "ת\"א",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "4704172",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "18:45",
+            "closeTime": "23:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": false,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "ביג פשן גלילות",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 3086,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.09333,
+    "longitude": 34.865486,
+    "isPickupAllowed": false,
+    "addressLines": [
+      "72, ז'בוטינסקי"
+    ],
+    "city": "פ\"ת",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "49681",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "19:00",
+            "closeTime": "23:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:30",
+            "closeTime": "14:00"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז מרכז",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "הקניון הגדול פ\"ת",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 3049,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.012461,
+    "longitude": 34.779346000000004,
+    "isPickupAllowed": false,
+    "addressLines": [
+      "7, גולדה מאיר"
+    ],
+    "city": "חולון",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "58391",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "19:00",
+            "closeTime": "22:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז תל אביב",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "חולון",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 1227,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 31.989137,
+    "longitude": 34.773611,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "21, סחרוב"
+    ],
+    "city": "ראשל\"צ",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "7570728",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "18:40",
+            "closeTime": "23:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:30",
+            "closeTime": "15:00"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז מרכז",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "הזהב",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 3389,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.19775,
+    "longitude": 34.879345,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "2, המלאכה"
+    ],
+    "city": "רעננה",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "43661",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "18:20",
+            "closeTime": "22:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז מרכז",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "קניון רננים",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 9032,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.171235,
+    "longitude": 34.928219,
+    "isPickupAllowed": false,
+    "addressLines": [
+      "301, ויצמן"
+    ],
+    "city": "כפ\"ס",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "44400",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "19:00",
+            "closeTime": "23:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "15:00"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז מרכז",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "כפ\"ס- קניון G",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 6415,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 32.279022,
+    "longitude": 34.846424,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "2, בני ברמן"
+    ],
+    "city": "נתניה",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "42493",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "18:00",
+            "closeTime": "22:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "21:30"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "14:30"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז מרכז",
+    "isDonationAllow": true,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [],
+    "messages": [],
+    "radius": 30,
+    "name": "קניון עיר ימים",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  },
+  {
+    "datatype": "physicalStore",
+    "id": 16973,
+    "kind": "Zara",
+    "type": "Mall",
+    "sections": [
+      "Woman",
+      "Man",
+      "Kids"
+    ],
+    "latitude": 31.89348231,
+    "longitude": 34.80744582,
+    "isPickupAllowed": true,
+    "addressLines": [
+      "2, ביל\"ו"
+    ],
+    "city": "רחובות",
+    "stateCode": "ILNONE",
+    "countryCode": "IL",
+    "zipCode": "76442",
+    "phones": [],
+    "stockThreshold": 1,
+    "highProbabilityStockThreshold": 3,
+    "openingHours": [
+      {
+        "datatype": "openingHours",
+        "date": "20260117",
+        "weekDay": 6,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "21:30",
+            "closeTime": "23:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260118",
+        "weekDay": 7,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260119",
+        "weekDay": 1,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260120",
+        "weekDay": 2,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260121",
+        "weekDay": 3,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260122",
+        "weekDay": 4,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "10:00",
+            "closeTime": "22:00"
+          }
+        ]
+      },
+      {
+        "datatype": "openingHours",
+        "date": "20260123",
+        "weekDay": 5,
+        "openingHoursInterval": [
+          {
+            "datatype": "openingHoursInterval",
+            "openTime": "09:00",
+            "closeTime": "15:00"
+          }
+        ]
+      }
+    ],
+    "country": "ישראל",
+    "state": "מחוז מרכז",
+    "isDonationAllow": false,
+    "isBeautyRecycling": false,
+    "isOnlyForEmployees": false,
+    "storeServices": [
+      "punto_drop_off_online"
+    ],
+    "messages": [],
+    "radius": 30,
+    "name": "רחובות",
+    "timezone": "Asia/Jerusalem",
+    "status": "OPEN",
+    "isShowable": true,
+    "hasEcommerce": true
+  }
+]

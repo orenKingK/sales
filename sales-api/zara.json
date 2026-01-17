@@ -1,0 +1,4181 @@
+[
+    {
+        "id": 478364359,
+        "name": "ג'קט משובץ עם טקסטורה",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#9C9488",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8f84/9571/453749cc9af9/653155bc4f68/06454181183-e1",
+                    "name": "06454181183-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756374701987",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8f849571453749cc9af9653155bc4f68",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8f84/9571/453749cc9af9/653155bc4f68/06454181183-e1/06454181183-e1.jpg?ts=1756374701987",
+                        "deliveryPath": "/assets/public/8f84/9571/453749cc9af9/653155bc4f68/06454181183-e1/06454181183-e1.jpg?ts=1756374701987"
+                    },
+                    "url": "https://static.zara.net/assets/public/8f84/9571/453749cc9af9/653155bc4f68/06454181183-e1/06454181183-e1.jpg?ts=1756374701987&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/8f84/9571/453749cc9af9/653155bc4f68/meta.json?ts=1756374701998"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "WIND-JACKET"
+    },
+    {
+        "id": 452708281,
+        "name": "חולצה עשויה 100% פשתן",
+        "price": 59.9,
+        "oldPrice": 249.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#F7F6F4",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/0cbd/3ac1/11c74d1784ae/777ef8e01f65/01618306250-e1",
+                    "name": "01618306250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1739802885805",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "0cbd3ac111c74d1784ae777ef8e01f65",
+                        "deliveryUrl": "https://static.zara.net/assets/public/0cbd/3ac1/11c74d1784ae/777ef8e01f65/01618306250-e1/01618306250-e1.jpg?ts=1739802885805",
+                        "deliveryPath": "/assets/public/0cbd/3ac1/11c74d1784ae/777ef8e01f65/01618306250-e1/01618306250-e1.jpg?ts=1739802885805"
+                    },
+                    "url": "https://static.zara.net/assets/public/0cbd/3ac1/11c74d1784ae/777ef8e01f65/01618306250-e1/01618306250-e1.jpg?ts=1739802885805&w={width}"
+                }
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "75%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 455950468,
+        "name": "ז'קט Relaxed fit עם אפקט דהוי",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "קאמל",
+                "hexColor": "#D3C2A5",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/9801/a59a/fec743819caa/2c4ee86b9c4f/06987330707-e1",
+                    "name": "06987330707-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752677989082",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "9801a59afec743819caa2c4ee86b9c4f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/9801/a59a/fec743819caa/2c4ee86b9c4f/06987330707-e1/06987330707-e1.jpg?ts=1752677989082",
+                        "deliveryPath": "/assets/public/9801/a59a/fec743819caa/2c4ee86b9c4f/06987330707-e1/06987330707-e1.jpg?ts=1752677989082"
+                    },
+                    "url": "https://static.zara.net/assets/public/9801/a59a/fec743819caa/2c4ee86b9c4f/06987330707-e1/06987330707-e1.jpg?ts=1752677989082&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/9801/a59a/fec743819caa/2c4ee86b9c4f/meta.json?ts=1752677989083"
+                }
+            },
+            {
+                "colorName": "חאקי כהה",
+                "hexColor": "#66996B"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "WIND-JACKET"
+    },
+    {
+        "id": 455907538,
+        "name": "בלייזר חליפה עשוי 100% פשתן",
+        "price": 169.9,
+        "oldPrice": 599.0,
+        "availableColors": [
+            {
+                "colorName": "בז' בהיר",
+                "hexColor": "#CFC2B7",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/94b0/c629/140741c1bd9a/98f34c742951/04410400052-e1",
+                    "name": "04410400052-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753719377563",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "94b0c629140741c1bd9a98f34c742951",
+                        "deliveryUrl": "https://static.zara.net/assets/public/94b0/c629/140741c1bd9a/98f34c742951/04410400052-e1/04410400052-e1.jpg?ts=1753719377563",
+                        "deliveryPath": "/assets/public/94b0/c629/140741c1bd9a/98f34c742951/04410400052-e1/04410400052-e1.jpg?ts=1753719377563"
+                    },
+                    "url": "https://static.zara.net/assets/public/94b0/c629/140741c1bd9a/98f34c742951/04410400052-e1/04410400052-e1.jpg?ts=1753719377563&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/94b0/c629/140741c1bd9a/98f34c742951/meta.json?ts=1753719377568"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "BLAZER"
+    },
+    {
+        "id": 455438143,
+        "name": "חולצת פולו טכנית עם רוכסן",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#191917",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/d244/c8b4/cfd14697997f/29629a220c46/06861695800-e1",
+                    "name": "06861695800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1741281784193",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "d244c8b4cfd14697997f29629a220c46",
+                        "deliveryUrl": "https://static.zara.net/assets/public/d244/c8b4/cfd14697997f/29629a220c46/06861695800-e1/06861695800-e1.jpg?ts=1741281784193",
+                        "deliveryPath": "/assets/public/d244/c8b4/cfd14697997f/29629a220c46/06861695800-e1/06861695800-e1.jpg?ts=1741281784193"
+                    },
+                    "url": "https://static.zara.net/assets/public/d244/c8b4/cfd14697997f/29629a220c46/06861695800-e1/06861695800-e1.jpg?ts=1741281784193&w={width}"
+                }
+            },
+            {
+                "colorName": "ירוק תפוח",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452735566,
+        "name": "מוקסינים מעור בסגנון יומיומי",
+        "price": 119.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#0A0A0A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/d867/516f/02844b2e98e2/d15f318f1265/12640620800-e1",
+                    "name": "12640620800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751383387467",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "d867516f02844b2e98e2d15f318f1265",
+                        "deliveryUrl": "https://static.zara.net/assets/public/d867/516f/02844b2e98e2/d15f318f1265/12640620800-e1/12640620800-e1.jpg?ts=1751383387467",
+                        "deliveryPath": "/assets/public/d867/516f/02844b2e98e2/d15f318f1265/12640620800-e1/12640620800-e1.jpg?ts=1751383387467"
+                    },
+                    "url": "https://static.zara.net/assets/public/d867/516f/02844b2e98e2/d15f318f1265/12640620800-e1/12640620800-e1.jpg?ts=1751383387467&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/d867/516f/02844b2e98e2/d15f318f1265/meta.json?ts=1751383388624"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "65%",
+        "familyName": "MOCCASINS"
+    },
+    {
+        "id": 456847103,
+        "name": "נעלי סניקרס בסגנון רטרו",
+        "price": 79.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#E6E6DF",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/08f2/4793/01a646eb8749/4939dd36988f/12259620001-e1",
+                    "name": "12259620001-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756819843333",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "08f2479301a646eb87494939dd36988f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/08f2/4793/01a646eb8749/4939dd36988f/12259620001-e1/12259620001-e1.jpg?ts=1756819843333",
+                        "deliveryPath": "/assets/public/08f2/4793/01a646eb8749/4939dd36988f/12259620001-e1/12259620001-e1.jpg?ts=1756819843333"
+                    },
+                    "url": "https://static.zara.net/assets/public/08f2/4793/01a646eb8749/4939dd36988f/12259620001-e1/12259620001-e1.jpg?ts=1756819843333&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/08f2/4793/01a646eb8749/4939dd36988f/meta.json?ts=1756819843341"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "65%",
+        "familyName": "SPORT SHOES"
+    },
+    {
+        "id": 462007055,
+        "name": "ג'קט ג'ינס CROPPED FIT",
+        "price": 149.9,
+        "oldPrice": 399.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק",
+                "hexColor": "#13372F",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/fce1/05f6/efb74d6fba73/27f886ac19c0/06688428500-e1",
+                    "name": "06688428500-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756377070144",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "fce105f6efb74d6fba7327f886ac19c0",
+                        "deliveryUrl": "https://static.zara.net/assets/public/fce1/05f6/efb74d6fba73/27f886ac19c0/06688428500-e1/06688428500-e1.jpg?ts=1756377070144",
+                        "deliveryPath": "/assets/public/fce1/05f6/efb74d6fba73/27f886ac19c0/06688428500-e1/06688428500-e1.jpg?ts=1756377070144"
+                    },
+                    "url": "https://static.zara.net/assets/public/fce1/05f6/efb74d6fba73/27f886ac19c0/06688428500-e1/06688428500-e1.jpg?ts=1756377070144&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/fce1/05f6/efb74d6fba73/27f886ac19c0/meta.json?ts=1756377070150"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "62%",
+        "familyName": "WIND-JACKET"
+    },
+    {
+        "id": 452723165,
+        "name": "תחתוני בוקסר בסיסיים, 3 יחידות",
+        "price": 49.9,
+        "oldPrice": 139.9,
+        "availableColors": [
+            {
+                "colorName": "חאקי",
+                "hexColor": "#2E302A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8afd/22a0/6f9e4356b839/a023f49438c4/04442330505-e1",
+                    "name": "04442330505-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1747299510581",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8afd22a06f9e4356b839a023f49438c4",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8afd/22a0/6f9e4356b839/a023f49438c4/04442330505-e1/04442330505-e1.jpg?ts=1747299510581",
+                        "deliveryPath": "/assets/public/8afd/22a0/6f9e4356b839/a023f49438c4/04442330505-e1/04442330505-e1.jpg?ts=1747299510581"
+                    },
+                    "url": "https://static.zara.net/assets/public/8afd/22a0/6f9e4356b839/a023f49438c4/04442330505-e1/04442330505-e1.jpg?ts=1747299510581&w={width}"
+                }
+            },
+            {
+                "colorName": "לבן",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "64%",
+        "familyName": "PANTY/UNDERPANT"
+    },
+    {
+        "id": 452744157,
+        "name": "מוקסינים מעור בסגנון יומיומי",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "חום",
+                "hexColor": "#866241",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/90ac/3ca0/80d4471d8e8f/23763bfe9558/12653620700-e1",
+                    "name": "12653620700-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752144613074",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "90ac3ca080d4471d8e8f23763bfe9558",
+                        "deliveryUrl": "https://static.zara.net/assets/public/90ac/3ca0/80d4471d8e8f/23763bfe9558/12653620700-e1/12653620700-e1.jpg?ts=1752144613074",
+                        "deliveryPath": "/assets/public/90ac/3ca0/80d4471d8e8f/23763bfe9558/12653620700-e1/12653620700-e1.jpg?ts=1752144613074"
+                    },
+                    "url": "https://static.zara.net/assets/public/90ac/3ca0/80d4471d8e8f/23763bfe9558/12653620700-e1/12653620700-e1.jpg?ts=1752144613074&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/90ac/3ca0/80d4471d8e8f/23763bfe9558/meta.json?ts=1752144613074"
+                }
+            },
+            {
+                "colorName": "בז",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "MOCCASINS"
+    },
+    {
+        "id": 480275076,
+        "name": "ג'קט מרופד עם טקסטורה",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "פחם",
+                "hexColor": "#242524",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/b62a/c800/58a345a79c3c/65908b10d105/04365363822-e1",
+                    "name": "04365363822-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1760611388939",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "b62ac80058a345a79c3c65908b10d105",
+                        "deliveryUrl": "https://static.zara.net/assets/public/b62a/c800/58a345a79c3c/65908b10d105/04365363822-e1/04365363822-e1.jpg?ts=1760611388939",
+                        "deliveryPath": "/assets/public/b62a/c800/58a345a79c3c/65908b10d105/04365363822-e1/04365363822-e1.jpg?ts=1760611388939"
+                    },
+                    "url": "https://static.zara.net/assets/public/b62a/c800/58a345a79c3c/65908b10d105/04365363822-e1/04365363822-e1.jpg?ts=1760611388939&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/b62a/c800/58a345a79c3c/65908b10d105/meta.json?ts=1760611388945"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "WIND-JACKET"
+    },
+    {
+        "id": 496335538,
+        "name": "RELAXED FIT חולצה בגזרה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#191919",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8d5c/b253/02b346c6beb2/ff2745703fae/04620301800-e1",
+                    "name": "04620301800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1744112905655",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8d5cb25302b346c6beb2ff2745703fae",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8d5c/b253/02b346c6beb2/ff2745703fae/04620301800-e1/04620301800-e1.jpg?ts=1744112905655",
+                        "deliveryPath": "/assets/public/8d5c/b253/02b346c6beb2/ff2745703fae/04620301800-e1/04620301800-e1.jpg?ts=1744112905655"
+                    },
+                    "url": "https://static.zara.net/assets/public/8d5c/b253/02b346c6beb2/ff2745703fae/04620301800-e1/04620301800-e1.jpg?ts=1744112905655&w={width}"
+                }
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 470181970,
+        "name": "חולצה מבד סירסאקר נוח",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "חום-כחול",
+                "hexColor": "#26242A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/0a30/16b1/b17d4f4087db/a3b62985357a/04092346049-e1",
+                    "name": "04092346049-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755010906833",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "0a3016b1b17d4f4087dba3b62985357a",
+                        "deliveryUrl": "https://static.zara.net/assets/public/0a30/16b1/b17d4f4087db/a3b62985357a/04092346049-e1/04092346049-e1.jpg?ts=1755010906833",
+                        "deliveryPath": "/assets/public/0a30/16b1/b17d4f4087db/a3b62985357a/04092346049-e1/04092346049-e1.jpg?ts=1755010906833"
+                    },
+                    "url": "https://static.zara.net/assets/public/0a30/16b1/b17d4f4087db/a3b62985357a/04092346049-e1/04092346049-e1.jpg?ts=1755010906833&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/0a30/16b1/b17d4f4087db/a3b62985357a/meta.json?ts=1755010906838"
+                }
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "POLO SHIRT"
+    },
+    {
+        "id": 456900087,
+        "name": "חולצת ז'קארד עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#0A0A0A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/9ab7/7afb/c22749308551/d8d8b0cff673/07545307800-e1",
+                    "name": "07545307800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751983512740",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "9ab77afbc22749308551d8d8b0cff673",
+                        "deliveryUrl": "https://static.zara.net/assets/public/9ab7/7afb/c22749308551/d8d8b0cff673/07545307800-e1/07545307800-e1.jpg?ts=1751983512740",
+                        "deliveryPath": "/assets/public/9ab7/7afb/c22749308551/d8d8b0cff673/07545307800-e1/07545307800-e1.jpg?ts=1751983512740"
+                    },
+                    "url": "https://static.zara.net/assets/public/9ab7/7afb/c22749308551/d8d8b0cff673/07545307800-e1/07545307800-e1.jpg?ts=1751983512740&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/9ab7/7afb/c22749308551/d8d8b0cff673/meta.json?ts=1751983512740"
+                }
+            },
+            {
+                "colorName": "ירוק",
+                "hexColor": "#66996B"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 455438141,
+        "name": "חולצת פולו טכנית עם רוכסן",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק תפוח",
+                "hexColor": "#AAA58D",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/b134/527a/fc374d1eb9dc/d37d9f9556d5/06861695513-e1",
+                    "name": "06861695513-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1741281782068",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "b134527afc374d1eb9dcd37d9f9556d5",
+                        "deliveryUrl": "https://static.zara.net/assets/public/b134/527a/fc374d1eb9dc/d37d9f9556d5/06861695513-e1/06861695513-e1.jpg?ts=1741281782068",
+                        "deliveryPath": "/assets/public/b134/527a/fc374d1eb9dc/d37d9f9556d5/06861695513-e1/06861695513-e1.jpg?ts=1741281782068"
+                    },
+                    "url": "https://static.zara.net/assets/public/b134/527a/fc374d1eb9dc/d37d9f9556d5/06861695513-e1/06861695513-e1.jpg?ts=1741281782068&w={width}"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452708227,
+        "name": "חולצה עם אפקט קמטים",
+        "price": 59.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "חאקי",
+                "hexColor": "#D3D6C7",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/c52b/0a20/558247b49ef6/4cf0bd7c37c8/06103400505-e1",
+                    "name": "06103400505-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1737452184285",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "c52b0a20558247b49ef64cf0bd7c37c8",
+                        "deliveryUrl": "https://static.zara.net/assets/public/c52b/0a20/558247b49ef6/4cf0bd7c37c8/06103400505-e1/06103400505-e1.jpg?ts=1737452184285",
+                        "deliveryPath": "/assets/public/c52b/0a20/558247b49ef6/4cf0bd7c37c8/06103400505-e1/06103400505-e1.jpg?ts=1737452184285"
+                    },
+                    "url": "https://static.zara.net/assets/public/c52b/0a20/558247b49ef6/4cf0bd7c37c8/06103400505-e1/06103400505-e1.jpg?ts=1737452184285&w={width}"
+                }
+            },
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "כחול־שמיים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "חאקי כהה",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "לבן",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "68%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452708226,
+        "name": "חולצה עם אפקט קמטים",
+        "price": 59.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "כחול־שמיים",
+                "hexColor": "#EEF7FE",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/1f1d/5000/e9004fcfbda6/6717b5e4ced0/06103400403-e1",
+                    "name": "06103400403-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1737386905121",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "1f1d5000e9004fcfbda66717b5e4ced0",
+                        "deliveryUrl": "https://static.zara.net/assets/public/1f1d/5000/e9004fcfbda6/6717b5e4ced0/06103400403-e1/06103400403-e1.jpg?ts=1737386905121",
+                        "deliveryPath": "/assets/public/1f1d/5000/e9004fcfbda6/6717b5e4ced0/06103400403-e1/06103400403-e1.jpg?ts=1737386905121"
+                    },
+                    "url": "https://static.zara.net/assets/public/1f1d/5000/e9004fcfbda6/6717b5e4ced0/06103400403-e1/06103400403-e1.jpg?ts=1737386905121&w={width}"
+                }
+            },
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "חאקי",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "חאקי כהה",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "לבן",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "68%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 455438142,
+        "name": "חולצת פולו טכנית עם רוכסן",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#DDD4C2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8b3d/4b9b/b92b4a14aef5/8c5ef14ff551/06861695712-000-r",
+                    "name": "06861695712-000-r",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1741776742360",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8b3d4b9bb92b4a14aef58c5ef14ff551",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8b3d/4b9b/b92b4a14aef5/8c5ef14ff551/06861695712-000-r/06861695712-000-r.jpg?ts=1741776742360",
+                        "deliveryPath": "/assets/public/8b3d/4b9b/b92b4a14aef5/8c5ef14ff551/06861695712-000-r/06861695712-000-r.jpg?ts=1741776742360"
+                    },
+                    "url": "https://static.zara.net/assets/public/8b3d/4b9b/b92b4a14aef5/8c5ef14ff551/06861695712-000-r/06861695712-000-r.jpg?ts=1741776742360&w={width}"
+                }
+            },
+            {
+                "colorName": "ירוק תפוח",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 465514687,
+        "name": "קרדיגן צמר בגזרה רגילה",
+        "price": 149.9,
+        "oldPrice": 399.0,
+        "availableColors": [
+            {
+                "colorName": "Gris Antracita",
+                "hexColor": "#7B7983",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/dd8d/5fb6/e0a649cda038/fc4e631f5b0d/00506317801-e1",
+                    "name": "00506317801-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757335420294",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "dd8d5fb6e0a649cda038fc4e631f5b0d",
+                        "deliveryUrl": "https://static.zara.net/assets/public/dd8d/5fb6/e0a649cda038/fc4e631f5b0d/00506317801-e1/00506317801-e1.jpg?ts=1757335420294",
+                        "deliveryPath": "/assets/public/dd8d/5fb6/e0a649cda038/fc4e631f5b0d/00506317801-e1/00506317801-e1.jpg?ts=1757335420294"
+                    },
+                    "url": "https://static.zara.net/assets/public/dd8d/5fb6/e0a649cda038/fc4e631f5b0d/00506317801-e1/00506317801-e1.jpg?ts=1757335420294&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/dd8d/5fb6/e0a649cda038/fc4e631f5b0d/meta.json?ts=1757335421321"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "62%",
+        "familyName": "CARDIGAN"
+    },
+    {
+        "id": 452697195,
+        "name": "חולצה עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#0A0A0A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/457a/1e35/474743fa9f26/c358fabaa63b/07545376800-e1",
+                    "name": "07545376800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1737018904955",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "457a1e35474743fa9f26c358fabaa63b",
+                        "deliveryUrl": "https://static.zara.net/assets/public/457a/1e35/474743fa9f26/c358fabaa63b/07545376800-e1/07545376800-e1.jpg?ts=1737018904955",
+                        "deliveryPath": "/assets/public/457a/1e35/474743fa9f26/c358fabaa63b/07545376800-e1/07545376800-e1.jpg?ts=1737018904955"
+                    },
+                    "url": "https://static.zara.net/assets/public/457a/1e35/474743fa9f26/c358fabaa63b/07545376800-e1/07545376800-e1.jpg?ts=1737018904955&w={width}"
+                }
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452734928,
+        "name": "חולצה משוחררת RELAXED FIT",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#242524",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/fa1b/5087/07514aa0af84/4ef18585eb19/01195430800-e1",
+                    "name": "01195430800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1740472807711",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "fa1b508707514aa0af844ef18585eb19",
+                        "deliveryUrl": "https://static.zara.net/assets/public/fa1b/5087/07514aa0af84/4ef18585eb19/01195430800-e1/01195430800-e1.jpg?ts=1740472807711",
+                        "deliveryPath": "/assets/public/fa1b/5087/07514aa0af84/4ef18585eb19/01195430800-e1/01195430800-e1.jpg?ts=1740472807711"
+                    },
+                    "url": "https://static.zara.net/assets/public/fa1b/5087/07514aa0af84/4ef18585eb19/01195430800-e1/01195430800-e1.jpg?ts=1740472807711&w={width}"
+                }
+            },
+            {
+                "colorName": "ירוק זית",
+                "hexColor": "#66996B"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452708058,
+        "name": "תיק רחצה מעור",
+        "price": 99.9,
+        "oldPrice": 259.0,
+        "availableColors": [
+            {
+                "colorName": "חום",
+                "hexColor": "#362C27",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/056c/5e28/c2ab41ebb87a/0a48d4936755/13710620700-e1",
+                    "name": "13710620700-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753864107576",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "056c5e28c2ab41ebb87a0a48d4936755",
+                        "deliveryUrl": "https://static.zara.net/assets/public/056c/5e28/c2ab41ebb87a/0a48d4936755/13710620700-e1/13710620700-e1.jpg?ts=1753864107576",
+                        "deliveryPath": "/assets/public/056c/5e28/c2ab41ebb87a/0a48d4936755/13710620700-e1/13710620700-e1.jpg?ts=1753864107576"
+                    },
+                    "url": "https://static.zara.net/assets/public/056c/5e28/c2ab41ebb87a/0a48d4936755/13710620700-e1/13710620700-e1.jpg?ts=1753864107576&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/056c/5e28/c2ab41ebb87a/0a48d4936755/meta.json?ts=1753864107582"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "61%",
+        "familyName": "HAND BAG-RUCKSACK"
+    },
+    {
+        "id": 452708280,
+        "name": "חולצה עשויה 100% פשתן",
+        "price": 59.9,
+        "oldPrice": 249.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#d2dbde",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/f491/49c1/ba984c3fb7e7/67b262c03a2d/01618306710-000-r",
+                    "name": "01618306710-000-r",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1740566757675",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "f49149c1ba984c3fb7e767b262c03a2d",
+                        "deliveryUrl": "https://static.zara.net/assets/public/f491/49c1/ba984c3fb7e7/67b262c03a2d/01618306710-000-r/01618306710-000-r.jpg?ts=1740566757675",
+                        "deliveryPath": "/assets/public/f491/49c1/ba984c3fb7e7/67b262c03a2d/01618306710-000-r/01618306710-000-r.jpg?ts=1740566757675"
+                    },
+                    "url": "https://static.zara.net/assets/public/f491/49c1/ba984c3fb7e7/67b262c03a2d/01618306710-000-r/01618306710-000-r.jpg?ts=1740566757675&w={width}"
+                }
+            },
+            {
+                "colorName": "לבן",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "75%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452735153,
+        "name": "חולצת ז'קארד עם פסים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול בהיר",
+                "hexColor": "#CDD6D8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/ea3d/6fe9/b1b243229fdb/cbac4a40defd/06103470406-e1",
+                    "name": "06103470406-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1742224771643",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "ea3d6fe9b1b243229fdbcbac4a40defd",
+                        "deliveryUrl": "https://static.zara.net/assets/public/ea3d/6fe9/b1b243229fdb/cbac4a40defd/06103470406-e1/06103470406-e1.jpg?ts=1742224771643",
+                        "deliveryPath": "/assets/public/ea3d/6fe9/b1b243229fdb/cbac4a40defd/06103470406-e1/06103470406-e1.jpg?ts=1742224771643"
+                    },
+                    "url": "https://static.zara.net/assets/public/ea3d/6fe9/b1b243229fdb/cbac4a40defd/06103470406-e1/06103470406-e1.jpg?ts=1742224771643&w={width}"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463521180,
+        "name": "חולצה עם פסים וטקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#E9E5DC",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/ebc6/9d13/fce4491e85fe/7d4fe6b68f57/01618501712-e1",
+                    "name": "01618501712-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1742471020111",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "ebc69d13fce4491e85fe7d4fe6b68f57",
+                        "deliveryUrl": "https://static.zara.net/assets/public/ebc6/9d13/fce4491e85fe/7d4fe6b68f57/01618501712-e1/01618501712-e1.jpg?ts=1742471020111",
+                        "deliveryPath": "/assets/public/ebc6/9d13/fce4491e85fe/7d4fe6b68f57/01618501712-e1/01618501712-e1.jpg?ts=1742471020111"
+                    },
+                    "url": "https://static.zara.net/assets/public/ebc6/9d13/fce4491e85fe/7d4fe6b68f57/01618501712-e1/01618501712-e1.jpg?ts=1742471020111&w={width}"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 457829003,
+        "name": "חולצת פולו עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול",
+                "hexColor": "#3C4E5D",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/a191/8b8f/34d04d818853/4f7c6d4bee89/04688590400-e1",
+                    "name": "04688590400-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753797049479",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "a1918b8f34d04d8188534f7c6d4bee89",
+                        "deliveryUrl": "https://static.zara.net/assets/public/a191/8b8f/34d04d818853/4f7c6d4bee89/04688590400-e1/04688590400-e1.jpg?ts=1753797049479",
+                        "deliveryPath": "/assets/public/a191/8b8f/34d04d818853/4f7c6d4bee89/04688590400-e1/04688590400-e1.jpg?ts=1753797049479"
+                    },
+                    "url": "https://static.zara.net/assets/public/a191/8b8f/34d04d818853/4f7c6d4bee89/04688590400-e1/04688590400-e1.jpg?ts=1753797049479&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/a191/8b8f/34d04d818853/4f7c6d4bee89/meta.json?ts=1753797049484"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452744156,
+        "name": "מוקסינים מעור בסגנון יומיומי",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "בז",
+                "hexColor": "#B9A17B",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/a756/2e6d/62b64efa9edc/3aa9b3028abb/12653620102-e1",
+                    "name": "12653620102-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1750844996882",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "a7562e6d62b64efa9edc3aa9b3028abb",
+                        "deliveryUrl": "https://static.zara.net/assets/public/a756/2e6d/62b64efa9edc/3aa9b3028abb/12653620102-e1/12653620102-e1.jpg?ts=1750844996882",
+                        "deliveryPath": "/assets/public/a756/2e6d/62b64efa9edc/3aa9b3028abb/12653620102-e1/12653620102-e1.jpg?ts=1750844996882"
+                    },
+                    "url": "https://static.zara.net/assets/public/a756/2e6d/62b64efa9edc/3aa9b3028abb/12653620102-e1/12653620102-e1.jpg?ts=1750844996882&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/a756/2e6d/62b64efa9edc/3aa9b3028abb/meta.json?ts=1750844996883"
+                }
+            },
+            {
+                "colorName": "חום",
+                "hexColor": "#7D5B41"
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "MOCCASINS"
+    },
+    {
+        "id": 452744148,
+        "name": "מוקסינים מעור משולב",
+        "price": 99.9,
+        "oldPrice": 399.0,
+        "availableColors": [
+            {
+                "colorName": "צבעוני",
+                "hexColor": "#0A0A0A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/87fa/1316/b1a84e35aa6b/fc63b15c6b08/12437620202-e1",
+                    "name": "12437620202-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755184510026",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "87fa1316b1a84e35aa6bfc63b15c6b08",
+                        "deliveryUrl": "https://static.zara.net/assets/public/87fa/1316/b1a84e35aa6b/fc63b15c6b08/12437620202-e1/12437620202-e1.jpg?ts=1755184510026",
+                        "deliveryPath": "/assets/public/87fa/1316/b1a84e35aa6b/fc63b15c6b08/12437620202-e1/12437620202-e1.jpg?ts=1755184510026"
+                    },
+                    "url": "https://static.zara.net/assets/public/87fa/1316/b1a84e35aa6b/fc63b15c6b08/12437620202-e1/12437620202-e1.jpg?ts=1755184510026&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/87fa/1316/b1a84e35aa6b/fc63b15c6b08/meta.json?ts=1755184510034"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "74%",
+        "familyName": "SHOES"
+    },
+    {
+        "id": 453882998,
+        "name": "נעלי עור עם תפר בחזית",
+        "price": 99.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "חום",
+                "hexColor": "#773B0F",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/214c/e8e0/848a492c9d3b/4ac3e2263dbc/12415620700-e1",
+                    "name": "12415620700-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757488507080",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "214ce8e0848a492c9d3b4ac3e2263dbc",
+                        "deliveryUrl": "https://static.zara.net/assets/public/214c/e8e0/848a492c9d3b/4ac3e2263dbc/12415620700-e1/12415620700-e1.jpg?ts=1757488507080",
+                        "deliveryPath": "/assets/public/214c/e8e0/848a492c9d3b/4ac3e2263dbc/12415620700-e1/12415620700-e1.jpg?ts=1757488507080"
+                    },
+                    "url": "https://static.zara.net/assets/public/214c/e8e0/848a492c9d3b/4ac3e2263dbc/12415620700-e1/12415620700-e1.jpg?ts=1757488507080&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/214c/e8e0/848a492c9d3b/4ac3e2263dbc/meta.json?ts=1757488507089"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHOES"
+    },
+    {
+        "id": 479549064,
+        "name": "סווטשירט קרופ עם אפקט גומי סינתטי וניטים",
+        "price": 99.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "קאמל",
+                "hexColor": "#D6C1A5",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/3c15/6d6b/cc1b4fb2aa4d/5c794649d2cd/08054310707-e1",
+                    "name": "08054310707-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1758873371257",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "3c156d6bcc1b4fb2aa4d5c794649d2cd",
+                        "deliveryUrl": "https://static.zara.net/assets/public/3c15/6d6b/cc1b4fb2aa4d/5c794649d2cd/08054310707-e1/08054310707-e1.jpg?ts=1758873371257",
+                        "deliveryPath": "/assets/public/3c15/6d6b/cc1b4fb2aa4d/5c794649d2cd/08054310707-e1/08054310707-e1.jpg?ts=1758873371257"
+                    },
+                    "url": "https://static.zara.net/assets/public/3c15/6d6b/cc1b4fb2aa4d/5c794649d2cd/08054310707-e1/08054310707-e1.jpg?ts=1758873371257&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/3c15/6d6b/cc1b4fb2aa4d/5c794649d2cd/meta.json?ts=1758873374576"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "64%",
+        "familyName": "SWEATSHIRT"
+    },
+    {
+        "id": 452696992,
+        "name": "חולצת פולו מבד פיקה עם אפקט דהוי",
+        "price": 59.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "ירוק דהוי",
+                "hexColor": "#63A08F",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/755c/1ad4/bf4a40f0baab/8dd0951f3cc2/04092312519-e1",
+                    "name": "04092312519-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751984582836",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "755c1ad4bf4a40f0baab8dd0951f3cc2",
+                        "deliveryUrl": "https://static.zara.net/assets/public/755c/1ad4/bf4a40f0baab/8dd0951f3cc2/04092312519-e1/04092312519-e1.jpg?ts=1751984582836",
+                        "deliveryPath": "/assets/public/755c/1ad4/bf4a40f0baab/8dd0951f3cc2/04092312519-e1/04092312519-e1.jpg?ts=1751984582836"
+                    },
+                    "url": "https://static.zara.net/assets/public/755c/1ad4/bf4a40f0baab/8dd0951f3cc2/04092312519-e1/04092312519-e1.jpg?ts=1751984582836&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/755c/1ad4/bf4a40f0baab/8dd0951f3cc2/meta.json?ts=1751984582836"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "68%",
+        "familyName": "POLO SHIRT"
+    },
+    {
+        "id": 478980828,
+        "name": "חולצת פולו סירסאקר",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#FEF5E8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/1484/bb43/41be4e2f9124/ea1006c6c15f/05679710250-e1",
+                    "name": "05679710250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756374709134",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "1484bb4341be4e2f9124ea1006c6c15f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/1484/bb43/41be4e2f9124/ea1006c6c15f/05679710250-e1/05679710250-e1.jpg?ts=1756374709134",
+                        "deliveryPath": "/assets/public/1484/bb43/41be4e2f9124/ea1006c6c15f/05679710250-e1/05679710250-e1.jpg?ts=1756374709134"
+                    },
+                    "url": "https://static.zara.net/assets/public/1484/bb43/41be4e2f9124/ea1006c6c15f/05679710250-e1/05679710250-e1.jpg?ts=1756374709134&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/1484/bb43/41be4e2f9124/ea1006c6c15f/meta.json?ts=1756374709140"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463285485,
+        "name": "חולצת פולו פשתן - כותנה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק בהיר",
+                "hexColor": "#909F72",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/9d0d/d53c/838e4d38a6e8/33d02f43c50a/01063304526-e1",
+                    "name": "01063304526-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752735819337",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "9d0dd53c838e4d38a6e833d02f43c50a",
+                        "deliveryUrl": "https://static.zara.net/assets/public/9d0d/d53c/838e4d38a6e8/33d02f43c50a/01063304526-e1/01063304526-e1.jpg?ts=1752735819337",
+                        "deliveryPath": "/assets/public/9d0d/d53c/838e4d38a6e8/33d02f43c50a/01063304526-e1/01063304526-e1.jpg?ts=1752735819337"
+                    },
+                    "url": "https://static.zara.net/assets/public/9d0d/d53c/838e4d38a6e8/33d02f43c50a/01063304526-e1/01063304526-e1.jpg?ts=1752735819337&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/9d0d/d53c/838e4d38a6e8/33d02f43c50a/meta.json?ts=1752735819337"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 471873526,
+        "name": "חולצת פולו פיג'מה ז'קארד",
+        "price": 49.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "כחול־שמיים",
+                "hexColor": "#B3C7D8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/3964/a31b/3ca3480e8412/7a9f4dad0a1b/05344321403-e1",
+                    "name": "05344321403-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757597616764",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "3964a31b3ca3480e84127a9f4dad0a1b",
+                        "deliveryUrl": "https://static.zara.net/assets/public/3964/a31b/3ca3480e8412/7a9f4dad0a1b/05344321403-e1/05344321403-e1.jpg?ts=1757597616764",
+                        "deliveryPath": "/assets/public/3964/a31b/3ca3480e8412/7a9f4dad0a1b/05344321403-e1/05344321403-e1.jpg?ts=1757597616764"
+                    },
+                    "url": "https://static.zara.net/assets/public/3964/a31b/3ca3480e8412/7a9f4dad0a1b/05344321403-e1/05344321403-e1.jpg?ts=1757597616764&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/3964/a31b/3ca3480e8412/7a9f4dad0a1b/meta.json?ts=1757597616770"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "82%",
+        "familyName": "NIGHTIE/PYJAMAS"
+    },
+    {
+        "id": 471873527,
+        "name": "מכנסי פיג'מה ז'קארד",
+        "price": 49.9,
+        "oldPrice": 329.0,
+        "availableColors": [
+            {
+                "colorName": "כחול־שמיים",
+                "hexColor": "#A3B7C8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/727a/8910/361c4234a122/4d763a198db8/05344322403-e1",
+                    "name": "05344322403-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757597618145",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "727a8910361c4234a1224d763a198db8",
+                        "deliveryUrl": "https://static.zara.net/assets/public/727a/8910/361c4234a122/4d763a198db8/05344322403-e1/05344322403-e1.jpg?ts=1757597618145",
+                        "deliveryPath": "/assets/public/727a/8910/361c4234a122/4d763a198db8/05344322403-e1/05344322403-e1.jpg?ts=1757597618145"
+                    },
+                    "url": "https://static.zara.net/assets/public/727a/8910/361c4234a122/4d763a198db8/05344322403-e1/05344322403-e1.jpg?ts=1757597618145&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/727a/8910/361c4234a122/4d763a198db8/meta.json?ts=1757597618154"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "84%",
+        "familyName": "NIGHTIE/PYJAMAS"
+    },
+    {
+        "id": 452723794,
+        "name": "נעלי סניקרס בסיסיות",
+        "price": 79.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "אפור",
+                "hexColor": "#B4B1AA",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8d25/464e/46504763bc96/9231a5bc7289/12203620802-e1",
+                    "name": "12203620802-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1746518546606",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8d25464e46504763bc969231a5bc7289",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8d25/464e/46504763bc96/9231a5bc7289/12203620802-e1/12203620802-e1.jpg?ts=1746518546606",
+                        "deliveryPath": "/assets/public/8d25/464e/46504763bc96/9231a5bc7289/12203620802-e1/12203620802-e1.jpg?ts=1746518546606"
+                    },
+                    "url": "https://static.zara.net/assets/public/8d25/464e/46504763bc96/9231a5bc7289/12203620802-e1/12203620802-e1.jpg?ts=1746518546606&w={width}"
+                }
+            },
+            {
+                "colorName": "בז",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "כחול",
+                "hexColor": "#6F9DC5"
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "SPORT SHOES"
+    },
+    {
+        "id": 462422882,
+        "name": "חולצת משבצות בגזרת RELAXED FIT",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול/לבן",
+                "hexColor": "#A1B7C8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/deca/b663/a3b44e01ad68/e86e7a1bf4a9/07446330044-e1",
+                    "name": "07446330044-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753780326099",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "decab663a3b44e01ad68e86e7a1bf4a9",
+                        "deliveryUrl": "https://static.zara.net/assets/public/deca/b663/a3b44e01ad68/e86e7a1bf4a9/07446330044-e1/07446330044-e1.jpg?ts=1753780326099",
+                        "deliveryPath": "/assets/public/deca/b663/a3b44e01ad68/e86e7a1bf4a9/07446330044-e1/07446330044-e1.jpg?ts=1753780326099"
+                    },
+                    "url": "https://static.zara.net/assets/public/deca/b663/a3b44e01ad68/e86e7a1bf4a9/07446330044-e1/07446330044-e1.jpg?ts=1753780326099&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/deca/b663/a3b44e01ad68/e86e7a1bf4a9/meta.json?ts=1753780326104"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 477631408,
+        "name": "חולצה נשפכת עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "אפור / כחול",
+                "hexColor": "#1E262A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/df62/b222/4cb94d17a5c4/ca3a770f560c/02548101055-e1",
+                    "name": "02548101055-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756308174452",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "df62b2224cb94d17a5c4ca3a770f560c",
+                        "deliveryUrl": "https://static.zara.net/assets/public/df62/b222/4cb94d17a5c4/ca3a770f560c/02548101055-e1/02548101055-e1.jpg?ts=1756308174452",
+                        "deliveryPath": "/assets/public/df62/b222/4cb94d17a5c4/ca3a770f560c/02548101055-e1/02548101055-e1.jpg?ts=1756308174452"
+                    },
+                    "url": "https://static.zara.net/assets/public/df62/b222/4cb94d17a5c4/ca3a770f560c/02548101055-e1/02548101055-e1.jpg?ts=1756308174452&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/df62/b222/4cb94d17a5c4/ca3a770f560c/meta.json?ts=1756308174459"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452712963,
+        "name": "חולצה עם הדפס אבסטרקטי",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול בהיר",
+                "hexColor": "#E8E5DF",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8c89/3cfa/ed734a06b216/1cce5a45dbbe/07545440441-e1",
+                    "name": "07545440441-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751984577807",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8c893cfaed734a06b2161cce5a45dbbe",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8c89/3cfa/ed734a06b216/1cce5a45dbbe/07545440441-e1/07545440441-e1.jpg?ts=1751984577807",
+                        "deliveryPath": "/assets/public/8c89/3cfa/ed734a06b216/1cce5a45dbbe/07545440441-e1/07545440441-e1.jpg?ts=1751984577807"
+                    },
+                    "url": "https://static.zara.net/assets/public/8c89/3cfa/ed734a06b216/1cce5a45dbbe/07545440441-e1/07545440441-e1.jpg?ts=1751984577807&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/8c89/3cfa/ed734a06b216/1cce5a45dbbe/meta.json?ts=1751984577807"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 496311500,
+        "name": "פפיון קטיפה",
+        "price": 49.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#0A0A0A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/3f36/aff6/dbbd43498dd7/dc16d84e5682/09569458800-e1",
+                    "name": "09569458800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1762276952789",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "3f36aff6dbbd43498dd7dc16d84e5682",
+                        "deliveryUrl": "https://static.zara.net/assets/public/3f36/aff6/dbbd43498dd7/dc16d84e5682/09569458800-e1/09569458800-e1.jpg?ts=1762276952789",
+                        "deliveryPath": "/assets/public/3f36/aff6/dbbd43498dd7/dc16d84e5682/09569458800-e1/09569458800-e1.jpg?ts=1762276952789"
+                    },
+                    "url": "https://static.zara.net/assets/public/3f36/aff6/dbbd43498dd7/dc16d84e5682/09569458800-e1/09569458800-e1.jpg?ts=1762276952789&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/3f36/aff6/dbbd43498dd7/dc16d84e5682/meta.json?ts=1762276952793"
+                }
+            },
+            {
+                "colorName": "חום",
+                "hexColor": "#7D5B41"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "BOW TIE/CUMMERBAND"
+    },
+    {
+        "id": 480278619,
+        "name": "OVER-SHIRT קנבס עם כיס",
+        "price": 199.0,
+        "oldPrice": 459.0,
+        "availableColors": [
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#30384B",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/cd61/874f/25af44edaf01/21eb8538108f/07563237401-e1",
+                    "name": "07563237401-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757927294856",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "cd61874f25af44edaf0121eb8538108f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/cd61/874f/25af44edaf01/21eb8538108f/07563237401-e1/07563237401-e1.jpg?ts=1757927294856",
+                        "deliveryPath": "/assets/public/cd61/874f/25af44edaf01/21eb8538108f/07563237401-e1/07563237401-e1.jpg?ts=1757927294856"
+                    },
+                    "url": "https://static.zara.net/assets/public/cd61/874f/25af44edaf01/21eb8538108f/07563237401-e1/07563237401-e1.jpg?ts=1757927294856&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/cd61/874f/25af44edaf01/21eb8538108f/meta.json?ts=1757927294865"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "56%",
+        "familyName": "OVERSHIRT"
+    },
+    {
+        "id": 452708224,
+        "name": "חולצה עם אפקט קמטים",
+        "price": 59.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#141827",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/fa99/941b/8138408a9bd3/50cf7fa82200/06103400401-e1",
+                    "name": "06103400401-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1737386895210",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "fa99941b8138408a9bd350cf7fa82200",
+                        "deliveryUrl": "https://static.zara.net/assets/public/fa99/941b/8138408a9bd3/50cf7fa82200/06103400401-e1/06103400401-e1.jpg?ts=1737386895210",
+                        "deliveryPath": "/assets/public/fa99/941b/8138408a9bd3/50cf7fa82200/06103400401-e1/06103400401-e1.jpg?ts=1737386895210"
+                    },
+                    "url": "https://static.zara.net/assets/public/fa99/941b/8138408a9bd3/50cf7fa82200/06103400401-e1/06103400401-e1.jpg?ts=1737386895210&w={width}"
+                }
+            },
+            {
+                "colorName": "כחול־שמיים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "חאקי",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "חאקי כהה",
+                "hexColor": "#66996B"
+            },
+            {
+                "colorName": "לבן",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "68%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452697156,
+        "name": "חולצת JACQUARD עם דוגמה גאומטרית",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#D2C2B2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/a12a/5b54/79ec44cebd3d/3f0dc7bfb9c9/05544501712-000-r",
+                    "name": "05544501712-000-r",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754986109626",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "a12a5b5479ec44cebd3d3f0dc7bfb9c9",
+                        "deliveryUrl": "https://static.zara.net/assets/public/a12a/5b54/79ec44cebd3d/3f0dc7bfb9c9/05544501712-000-r/05544501712-000-r.jpg?ts=1754986109626",
+                        "deliveryPath": "/assets/public/a12a/5b54/79ec44cebd3d/3f0dc7bfb9c9/05544501712-000-r/05544501712-000-r.jpg?ts=1754986109626"
+                    },
+                    "url": "https://static.zara.net/assets/public/a12a/5b54/79ec44cebd3d/3f0dc7bfb9c9/05544501712-000-r/05544501712-000-r.jpg?ts=1754986109626&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/a12a/5b54/79ec44cebd3d/3f0dc7bfb9c9/meta.json?ts=1754986109632"
+                }
+            },
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "כתום",
+                "hexColor": "#EC8A4D"
+            },
+            {
+                "colorName": "נייבי",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452702077,
+        "name": "חולצת JACQUARD עם דוגמה גאומטרית",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#191919",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/a616/f164/38ab40768702/0cb9f926ffa3/01450301800-e1",
+                    "name": "01450301800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1749475522187",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "a616f16438ab407687020cb9f926ffa3",
+                        "deliveryUrl": "https://static.zara.net/assets/public/a616/f164/38ab40768702/0cb9f926ffa3/01450301800-e1/01450301800-e1.jpg?ts=1749475522187",
+                        "deliveryPath": "/assets/public/a616/f164/38ab40768702/0cb9f926ffa3/01450301800-e1/01450301800-e1.jpg?ts=1749475522187"
+                    },
+                    "url": "https://static.zara.net/assets/public/a616/f164/38ab40768702/0cb9f926ffa3/01450301800-e1/01450301800-e1.jpg?ts=1749475522187&w={width}"
+                }
+            },
+            {
+                "colorName": "אפור פחם",
+                "hexColor": "#C3C1C1"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452723614,
+        "name": "עליונית נוחה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#191919",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/2d18/be74/86314bc9b354/b77f4ba110b2/07484872800-e1",
+                    "name": "07484872800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1738682321476",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "2d18be7486314bc9b354b77f4ba110b2",
+                        "deliveryUrl": "https://static.zara.net/assets/public/2d18/be74/86314bc9b354/b77f4ba110b2/07484872800-e1/07484872800-e1.jpg?ts=1738682321476",
+                        "deliveryPath": "/assets/public/2d18/be74/86314bc9b354/b77f4ba110b2/07484872800-e1/07484872800-e1.jpg?ts=1738682321476"
+                    },
+                    "url": "https://static.zara.net/assets/public/2d18/be74/86314bc9b354/b77f4ba110b2/07484872800-e1/07484872800-e1.jpg?ts=1738682321476&w={width}"
+                }
+            },
+            {
+                "colorName": "חול",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "OVERSHIRT"
+    },
+    {
+        "id": 452723616,
+        "name": "עליונית נוחה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#E6E6DF",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/eab9/bf21/00a64a059929/81f72d10782b/03090550251-e1",
+                    "name": "03090550251-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1738682311957",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "eab9bf2100a64a05992981f72d10782b",
+                        "deliveryUrl": "https://static.zara.net/assets/public/eab9/bf21/00a64a059929/81f72d10782b/03090550251-e1/03090550251-e1.jpg?ts=1738682311957",
+                        "deliveryPath": "/assets/public/eab9/bf21/00a64a059929/81f72d10782b/03090550251-e1/03090550251-e1.jpg?ts=1738682311957"
+                    },
+                    "url": "https://static.zara.net/assets/public/eab9/bf21/00a64a059929/81f72d10782b/03090550251-e1/03090550251-e1.jpg?ts=1738682311957&w={width}"
+                }
+            },
+            {
+                "colorName": "חול",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "OVERSHIRT"
+    },
+    {
+        "id": 452723613,
+        "name": "עליונית נוחה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "חול",
+                "hexColor": "#CEC3B2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/041e/e58f/35d644879c71/44ccf5b7fdcc/07484872711-e1",
+                    "name": "07484872711-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1737456476912",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "041ee58f35d644879c7144ccf5b7fdcc",
+                        "deliveryUrl": "https://static.zara.net/assets/public/041e/e58f/35d644879c71/44ccf5b7fdcc/07484872711-e1/07484872711-e1.jpg?ts=1737456476912",
+                        "deliveryPath": "/assets/public/041e/e58f/35d644879c71/44ccf5b7fdcc/07484872711-e1/07484872711-e1.jpg?ts=1737456476912"
+                    },
+                    "url": "https://static.zara.net/assets/public/041e/e58f/35d644879c71/44ccf5b7fdcc/07484872711-e1/07484872711-e1.jpg?ts=1737456476912&w={width}"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "OVERSHIRT"
+    },
+    {
+        "id": 452701878,
+        "name": "תיק צד עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#313131",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8aee/4d53/1d6d4330a5f7/e1ee03fbbcb6/13513620800-e1",
+                    "name": "13513620800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1748424096026",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8aee4d531d6d4330a5f7e1ee03fbbcb6",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8aee/4d53/1d6d4330a5f7/e1ee03fbbcb6/13513620800-e1/13513620800-e1.jpg?ts=1748424096026",
+                        "deliveryPath": "/assets/public/8aee/4d53/1d6d4330a5f7/e1ee03fbbcb6/13513620800-e1/13513620800-e1.jpg?ts=1748424096026"
+                    },
+                    "url": "https://static.zara.net/assets/public/8aee/4d53/1d6d4330a5f7/e1ee03fbbcb6/13513620800-e1/13513620800-e1.jpg?ts=1748424096026&w={width}"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "HAND BAG-RUCKSACK"
+    },
+    {
+        "id": 465261207,
+        "name": "חולצה משוחררת RELAXED FIT",
+        "price": 59.9,
+        "oldPrice": 249.0,
+        "availableColors": [
+            {
+                "colorName": "בז' בהיר",
+                "hexColor": "#C1B2A2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/66bc/012c/cb574172b67a/1461e9f6d977/00706663052-e1",
+                    "name": "00706663052-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753797403770",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "66bc012ccb574172b67a1461e9f6d977",
+                        "deliveryUrl": "https://static.zara.net/assets/public/66bc/012c/cb574172b67a/1461e9f6d977/00706663052-e1/00706663052-e1.jpg?ts=1753797403770",
+                        "deliveryPath": "/assets/public/66bc/012c/cb574172b67a/1461e9f6d977/00706663052-e1/00706663052-e1.jpg?ts=1753797403770"
+                    },
+                    "url": "https://static.zara.net/assets/public/66bc/012c/cb574172b67a/1461e9f6d977/00706663052-e1/00706663052-e1.jpg?ts=1753797403770&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/66bc/012c/cb574172b67a/1461e9f6d977/meta.json?ts=1753797403776"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            },
+            {
+                "colorName": "שוקולד",
+                "hexColor": "#7D5B41"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "75%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463128342,
+        "name": "חולצת JACQUARD עם דוגמה גאומטרית",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#F8F6EC",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/7599/56e3/0df245e7a3dd/6f13cd9dd53c/05544501251-000-r",
+                    "name": "05544501251-000-r",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754986108940",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "759956e30df245e7a3dd6f13cd9dd53c",
+                        "deliveryUrl": "https://static.zara.net/assets/public/7599/56e3/0df245e7a3dd/6f13cd9dd53c/05544501251-000-r/05544501251-000-r.jpg?ts=1754986108940",
+                        "deliveryPath": "/assets/public/7599/56e3/0df245e7a3dd/6f13cd9dd53c/05544501251-000-r/05544501251-000-r.jpg?ts=1754986108940"
+                    },
+                    "url": "https://static.zara.net/assets/public/7599/56e3/0df245e7a3dd/6f13cd9dd53c/05544501251-000-r/05544501251-000-r.jpg?ts=1754986108940&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/7599/56e3/0df245e7a3dd/6f13cd9dd53c/meta.json?ts=1754986108944"
+                }
+            },
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "כתום",
+                "hexColor": "#EC8A4D"
+            },
+            {
+                "colorName": "נייבי",
+                "hexColor": "#6F9DC5"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 465580379,
+        "name": "חולצת ליוסל - כותנה עם הדפס",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "קאמל",
+                "hexColor": "#E2D2C2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/7253/3275/14e946d5b057/6e394c267ef5/06085306707-e1",
+                    "name": "06085306707-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755526014287",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "7253327514e946d5b0576e394c267ef5",
+                        "deliveryUrl": "https://static.zara.net/assets/public/7253/3275/14e946d5b057/6e394c267ef5/06085306707-e1/06085306707-e1.jpg?ts=1755526014287",
+                        "deliveryPath": "/assets/public/7253/3275/14e946d5b057/6e394c267ef5/06085306707-e1/06085306707-e1.jpg?ts=1755526014287"
+                    },
+                    "url": "https://static.zara.net/assets/public/7253/3275/14e946d5b057/6e394c267ef5/06085306707-e1/06085306707-e1.jpg?ts=1755526014287&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/7253/3275/14e946d5b057/6e394c267ef5/meta.json?ts=1755526014293"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 455045929,
+        "name": "חולצה משוחררת RELAXED FIT",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק זית",
+                "hexColor": "#B0A38D",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/6434/0723/beb34a4e9f78/829cda3a3354/01195318515-e1",
+                    "name": "01195318515-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1747929714225",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "64340723beb34a4e9f78829cda3a3354",
+                        "deliveryUrl": "https://static.zara.net/assets/public/6434/0723/beb34a4e9f78/829cda3a3354/01195318515-e1/01195318515-e1.jpg?ts=1747929714225",
+                        "deliveryPath": "/assets/public/6434/0723/beb34a4e9f78/829cda3a3354/01195318515-e1/01195318515-e1.jpg?ts=1747929714225"
+                    },
+                    "url": "https://static.zara.net/assets/public/6434/0723/beb34a4e9f78/829cda3a3354/01195318515-e1/01195318515-e1.jpg?ts=1747929714225&w={width}"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 464413153,
+        "name": "חולצת RELAXED FIT נשפכת",
+        "price": 59.9,
+        "oldPrice": 249.0,
+        "availableColors": [
+            {
+                "colorName": "אפור כהה",
+                "hexColor": "#1D1D1D",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/893d/2521/37864758b43d/c18b7228d17c/01437391922-e1",
+                    "name": "01437391922-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756980109463",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "893d252137864758b43dc18b7228d17c",
+                        "deliveryUrl": "https://static.zara.net/assets/public/893d/2521/37864758b43d/c18b7228d17c/01437391922-e1/01437391922-e1.jpg?ts=1756980109463",
+                        "deliveryPath": "/assets/public/893d/2521/37864758b43d/c18b7228d17c/01437391922-e1/01437391922-e1.jpg?ts=1756980109463"
+                    },
+                    "url": "https://static.zara.net/assets/public/893d/2521/37864758b43d/c18b7228d17c/01437391922-e1/01437391922-e1.jpg?ts=1756980109463&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/893d/2521/37864758b43d/c18b7228d17c/meta.json?ts=1756980109469"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "75%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 480262210,
+        "name": "חולצת פסים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז' בהיר",
+                "hexColor": "#DAD4C7",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/0206/287e/c911487a8e7b/96bf267df9f7/05679169721-e1",
+                    "name": "05679169721-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1758624314731",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "0206287ec911487a8e7b96bf267df9f7",
+                        "deliveryUrl": "https://static.zara.net/assets/public/0206/287e/c911487a8e7b/96bf267df9f7/05679169721-e1/05679169721-e1.jpg?ts=1758624314731",
+                        "deliveryPath": "/assets/public/0206/287e/c911487a8e7b/96bf267df9f7/05679169721-e1/05679169721-e1.jpg?ts=1758624314731"
+                    },
+                    "url": "https://static.zara.net/assets/public/0206/287e/c911487a8e7b/96bf267df9f7/05679169721-e1/05679169721-e1.jpg?ts=1758624314731&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/0206/287e/c911487a8e7b/96bf267df9f7/meta.json?ts=1758624314737"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 476490780,
+        "name": "בלייזר מוצלבת חליפה",
+        "price": 169.9,
+        "oldPrice": 599.0,
+        "availableColors": [
+            {
+                "colorName": "אפור פחם",
+                "hexColor": "#31303A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/04ff/2fc0/e31b4f98b6a0/1c6e440ec83f/05908475807-e1",
+                    "name": "05908475807-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757317266880",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "04ff2fc0e31b4f98b6a01c6e440ec83f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/04ff/2fc0/e31b4f98b6a0/1c6e440ec83f/05908475807-e1/05908475807-e1.jpg?ts=1757317266880",
+                        "deliveryPath": "/assets/public/04ff/2fc0/e31b4f98b6a0/1c6e440ec83f/05908475807-e1/05908475807-e1.jpg?ts=1757317266880"
+                    },
+                    "url": "https://static.zara.net/assets/public/04ff/2fc0/e31b4f98b6a0/1c6e440ec83f/05908475807-e1/05908475807-e1.jpg?ts=1757317266880&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/04ff/2fc0/e31b4f98b6a0/1c6e440ec83f/meta.json?ts=1757317266886"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "BLAZER"
+    },
+    {
+        "id": 476653880,
+        "name": "חולצת Relaxed fit פופלין",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "כחול",
+                "hexColor": "#363E4F",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/622c/3f7b/4866488a8d93/ab1762ee166d/05679742400-e1",
+                    "name": "05679742400-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754902608496",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "622c3f7b4866488a8d93ab1762ee166d",
+                        "deliveryUrl": "https://static.zara.net/assets/public/622c/3f7b/4866488a8d93/ab1762ee166d/05679742400-e1/05679742400-e1.jpg?ts=1754902608496",
+                        "deliveryPath": "/assets/public/622c/3f7b/4866488a8d93/ab1762ee166d/05679742400-e1/05679742400-e1.jpg?ts=1754902608496"
+                    },
+                    "url": "https://static.zara.net/assets/public/622c/3f7b/4866488a8d93/ab1762ee166d/05679742400-e1/05679742400-e1.jpg?ts=1754902608496&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/622c/3f7b/4866488a8d93/ab1762ee166d/meta.json?ts=1754902608501"
+                }
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 464606448,
+        "name": "ג'קט גזרה מרובעת עם כיסים",
+        "price": 149.9,
+        "oldPrice": 399.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#18191A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/0b0f/bb8a/96944c3fbaf3/27fa99c8eb34/00155350800-e1",
+                    "name": "00155350800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757335429012",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "0b0fbb8a96944c3fbaf327fa99c8eb34",
+                        "deliveryUrl": "https://static.zara.net/assets/public/0b0f/bb8a/96944c3fbaf3/27fa99c8eb34/00155350800-e1/00155350800-e1.jpg?ts=1757335429012",
+                        "deliveryPath": "/assets/public/0b0f/bb8a/96944c3fbaf3/27fa99c8eb34/00155350800-e1/00155350800-e1.jpg?ts=1757335429012"
+                    },
+                    "url": "https://static.zara.net/assets/public/0b0f/bb8a/96944c3fbaf3/27fa99c8eb34/00155350800-e1/00155350800-e1.jpg?ts=1757335429012&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/0b0f/bb8a/96944c3fbaf3/27fa99c8eb34/meta.json?ts=1757335429018"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "62%",
+        "familyName": "WIND-JACKET"
+    },
+    {
+        "id": 471805600,
+        "name": "אוברשירט עם טקסטורה וכיסים",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק",
+                "hexColor": "#483D24",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/1e37/db17/f70d421eb026/8c401f35304f/04391326500-e1",
+                    "name": "04391326500-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1759313369921",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "1e37db17f70d421eb0268c401f35304f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/1e37/db17/f70d421eb026/8c401f35304f/04391326500-e1/04391326500-e1.jpg?ts=1759313369921",
+                        "deliveryPath": "/assets/public/1e37/db17/f70d421eb026/8c401f35304f/04391326500-e1/04391326500-e1.jpg?ts=1759313369921"
+                    },
+                    "url": "https://static.zara.net/assets/public/1e37/db17/f70d421eb026/8c401f35304f/04391326500-e1/04391326500-e1.jpg?ts=1759313369921&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/1e37/db17/f70d421eb026/8c401f35304f/meta.json?ts=1759313369926"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "OVERSHIRT"
+    },
+    {
+        "id": 458766475,
+        "name": "ג'קט Relaxed fit",
+        "price": 149.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "ירקרק",
+                "hexColor": "#584937",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/9e3e/65ba/dcfd41e19b28/89edb8d21618/03715402514-e1",
+                    "name": "03715402514-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755678242038",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "9e3e65badcfd41e19b2889edb8d21618",
+                        "deliveryUrl": "https://static.zara.net/assets/public/9e3e/65ba/dcfd41e19b28/89edb8d21618/03715402514-e1/03715402514-e1.jpg?ts=1755678242038",
+                        "deliveryPath": "/assets/public/9e3e/65ba/dcfd41e19b28/89edb8d21618/03715402514-e1/03715402514-e1.jpg?ts=1755678242038"
+                    },
+                    "url": "https://static.zara.net/assets/public/9e3e/65ba/dcfd41e19b28/89edb8d21618/03715402514-e1/03715402514-e1.jpg?ts=1755678242038&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/9e3e/65ba/dcfd41e19b28/89edb8d21618/meta.json?ts=1755678242042"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "57%",
+        "familyName": "WIND-JACKET"
+    },
+    {
+        "id": 460447374,
+        "name": "חולצת קרושה עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק",
+                "hexColor": "#A1A69B",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/e0aa/b58b/60f8459d936e/fe08a9192258/00399321500-e1",
+                    "name": "00399321500-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752654525361",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "e0aab58b60f8459d936efe08a9192258",
+                        "deliveryUrl": "https://static.zara.net/assets/public/e0aa/b58b/60f8459d936e/fe08a9192258/00399321500-e1/00399321500-e1.jpg?ts=1752654525361",
+                        "deliveryPath": "/assets/public/e0aa/b58b/60f8459d936e/fe08a9192258/00399321500-e1/00399321500-e1.jpg?ts=1752654525361"
+                    },
+                    "url": "https://static.zara.net/assets/public/e0aa/b58b/60f8459d936e/fe08a9192258/00399321500-e1/00399321500-e1.jpg?ts=1752654525361&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/e0aa/b58b/60f8459d936e/fe08a9192258/meta.json?ts=1752654525361"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452744675,
+        "name": "חולצת פולו עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "פיסטוק",
+                "hexColor": "#736837",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/6a68/17e0/8df3432aa029/42f39f42a3d2/05644322511-000-r",
+                    "name": "05644322511-000-r",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1765354030570",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "6a6817e08df3432aa02942f39f42a3d2",
+                        "deliveryUrl": "https://static.zara.net/assets/public/6a68/17e0/8df3432aa029/42f39f42a3d2/05644322511-000-r/05644322511-000-r.jpg?ts=1765354030570",
+                        "deliveryPath": "/assets/public/6a68/17e0/8df3432aa029/42f39f42a3d2/05644322511-000-r/05644322511-000-r.jpg?ts=1765354030570"
+                    },
+                    "url": "https://static.zara.net/assets/public/6a68/17e0/8df3432aa029/42f39f42a3d2/05644322511-000-r/05644322511-000-r.jpg?ts=1765354030570&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/6a68/17e0/8df3432aa029/42f39f42a3d2/meta.json?ts=1765354030582"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "POLO SHIRT"
+    },
+    {
+        "id": 473186272,
+        "name": "חולצה פשתן - כותנה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#F6F6F6",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/e8b1/9f4c/025b486fa1fb/b2a349008307/05959061250-e1",
+                    "name": "05959061250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755095319048",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "e8b19f4c025b486fa1fbb2a349008307",
+                        "deliveryUrl": "https://static.zara.net/assets/public/e8b1/9f4c/025b486fa1fb/b2a349008307/05959061250-e1/05959061250-e1.jpg?ts=1755095319048",
+                        "deliveryPath": "/assets/public/e8b1/9f4c/025b486fa1fb/b2a349008307/05959061250-e1/05959061250-e1.jpg?ts=1755095319048"
+                    },
+                    "url": "https://static.zara.net/assets/public/e8b1/9f4c/025b486fa1fb/b2a349008307/05959061250-e1/05959061250-e1.jpg?ts=1755095319048&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/e8b1/9f4c/025b486fa1fb/b2a349008307/meta.json?ts=1755095319053"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463149515,
+        "name": "חולצת פולו עם טקסטורה והדפס בצורת אדרה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ירוק / כחול",
+                "hexColor": "#F7F6F0",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8031/8e30/8b6943d08ad3/e5cc0bd169c6/05784526518-e1",
+                    "name": "05784526518-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752674977236",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "80318e308b6943d08ad3e5cc0bd169c6",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8031/8e30/8b6943d08ad3/e5cc0bd169c6/05784526518-e1/05784526518-e1.jpg?ts=1752674977236",
+                        "deliveryPath": "/assets/public/8031/8e30/8b6943d08ad3/e5cc0bd169c6/05784526518-e1/05784526518-e1.jpg?ts=1752674977236"
+                    },
+                    "url": "https://static.zara.net/assets/public/8031/8e30/8b6943d08ad3/e5cc0bd169c6/05784526518-e1/05784526518-e1.jpg?ts=1752674977236&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/8031/8e30/8b6943d08ad3/e5cc0bd169c6/meta.json?ts=1752674977236"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 466372842,
+        "name": "חולצה עם הדפס דג",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "נוד / אדום",
+                "hexColor": "#B5412C",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/dfc3/233e/07b04837aa44/7ed10ae5e9b1/06085287067-e1",
+                    "name": "06085287067-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754399519233",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "dfc3233e07b04837aa447ed10ae5e9b1",
+                        "deliveryUrl": "https://static.zara.net/assets/public/dfc3/233e/07b04837aa44/7ed10ae5e9b1/06085287067-e1/06085287067-e1.jpg?ts=1754399519233",
+                        "deliveryPath": "/assets/public/dfc3/233e/07b04837aa44/7ed10ae5e9b1/06085287067-e1/06085287067-e1.jpg?ts=1754399519233"
+                    },
+                    "url": "https://static.zara.net/assets/public/dfc3/233e/07b04837aa44/7ed10ae5e9b1/06085287067-e1/06085287067-e1.jpg?ts=1754399519233&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/dfc3/233e/07b04837aa44/7ed10ae5e9b1/meta.json?ts=1754399519237"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 468894185,
+        "name": "חולצה נוחה עם רקמת קווים",
+        "price": 59.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#F3E3D2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/0143/7fed/3e5b42f9b0f3/bf5ebe890b59/05584319251-e1",
+                    "name": "05584319251-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755095316851",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "01437fed3e5b42f9b0f3bf5ebe890b59",
+                        "deliveryUrl": "https://static.zara.net/assets/public/0143/7fed/3e5b42f9b0f3/bf5ebe890b59/05584319251-e1/05584319251-e1.jpg?ts=1755095316851",
+                        "deliveryPath": "/assets/public/0143/7fed/3e5b42f9b0f3/bf5ebe890b59/05584319251-e1/05584319251-e1.jpg?ts=1755095316851"
+                    },
+                    "url": "https://static.zara.net/assets/public/0143/7fed/3e5b42f9b0f3/bf5ebe890b59/05584319251-e1/05584319251-e1.jpg?ts=1755095316851&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/0143/7fed/3e5b42f9b0f3/bf5ebe890b59/meta.json?ts=1755095316857"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "78%",
+        "familyName": "POLO SHIRT"
+    },
+    {
+        "id": 452712953,
+        "name": "חולצת קרושה עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "נוד / שחור",
+                "hexColor": "#EDE4D8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/b06d/1727/fa5d4055a2c8/9294b54822cb/04795400070-e1",
+                    "name": "04795400070-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752661174473",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "b06d1727fa5d4055a2c89294b54822cb",
+                        "deliveryUrl": "https://static.zara.net/assets/public/b06d/1727/fa5d4055a2c8/9294b54822cb/04795400070-e1/04795400070-e1.jpg?ts=1752661174473",
+                        "deliveryPath": "/assets/public/b06d/1727/fa5d4055a2c8/9294b54822cb/04795400070-e1/04795400070-e1.jpg?ts=1752661174473"
+                    },
+                    "url": "https://static.zara.net/assets/public/b06d/1727/fa5d4055a2c8/9294b54822cb/04795400070-e1/04795400070-e1.jpg?ts=1752661174473&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/b06d/1727/fa5d4055a2c8/9294b54822cb/meta.json?ts=1752661174473"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 464411388,
+        "name": "חולצת Regular fit מבד רך",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול בהיר",
+                "hexColor": "#C0C3D8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/c53c/a3e6/2b0a4b8f91de/534d3668cee4/05588144406-e1",
+                    "name": "05588144406-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753351026629",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "c53ca3e62b0a4b8f91de534d3668cee4",
+                        "deliveryUrl": "https://static.zara.net/assets/public/c53c/a3e6/2b0a4b8f91de/534d3668cee4/05588144406-e1/05588144406-e1.jpg?ts=1753351026629",
+                        "deliveryPath": "/assets/public/c53c/a3e6/2b0a4b8f91de/534d3668cee4/05588144406-e1/05588144406-e1.jpg?ts=1753351026629"
+                    },
+                    "url": "https://static.zara.net/assets/public/c53c/a3e6/2b0a4b8f91de/534d3668cee4/05588144406-e1/05588144406-e1.jpg?ts=1753351026629&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/c53c/a3e6/2b0a4b8f91de/534d3668cee4/meta.json?ts=1753351026633"
+                }
+            },
+            {
+                "colorName": "ירוק בהיר",
+                "hexColor": "#66996B"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 464931559,
+        "name": "חולצת JACQUARD עם דוגמה גאומטרית",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "נייבי",
+                "hexColor": "#101A23",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/7ab1/8eef/84c4463b96de/c1a66f7083ea/05544501481-e1",
+                    "name": "05544501481-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753351027269",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "7ab18eef84c4463b96dec1a66f7083ea",
+                        "deliveryUrl": "https://static.zara.net/assets/public/7ab1/8eef/84c4463b96de/c1a66f7083ea/05544501481-e1/05544501481-e1.jpg?ts=1753351027269",
+                        "deliveryPath": "/assets/public/7ab1/8eef/84c4463b96de/c1a66f7083ea/05544501481-e1/05544501481-e1.jpg?ts=1753351027269"
+                    },
+                    "url": "https://static.zara.net/assets/public/7ab1/8eef/84c4463b96de/c1a66f7083ea/05544501481-e1/05544501481-e1.jpg?ts=1753351027269&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/7ab1/8eef/84c4463b96de/c1a66f7083ea/meta.json?ts=1753351027275"
+                }
+            },
+            {
+                "colorName": "כחול־ים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "כתום",
+                "hexColor": "#EC8A4D"
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463782803,
+        "name": "חולצה עם טקסטורה והדפס",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#F9F6F0",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/44f2/3d23/c4744965aaf1/de3a1246d53d/06085307250-e1",
+                    "name": "06085307250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753797174823",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "44f23d23c4744965aaf1de3a1246d53d",
+                        "deliveryUrl": "https://static.zara.net/assets/public/44f2/3d23/c4744965aaf1/de3a1246d53d/06085307250-e1/06085307250-e1.jpg?ts=1753797174823",
+                        "deliveryPath": "/assets/public/44f2/3d23/c4744965aaf1/de3a1246d53d/06085307250-e1/06085307250-e1.jpg?ts=1753797174823"
+                    },
+                    "url": "https://static.zara.net/assets/public/44f2/3d23/c4744965aaf1/de3a1246d53d/06085307250-e1/06085307250-e1.jpg?ts=1753797174823&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/44f2/3d23/c4744965aaf1/de3a1246d53d/meta.json?ts=1753797174828"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452739548,
+        "name": "חולצת ז'קארד Relaxed fit",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#F7F6F0",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/77ec/754d/1635472e88b0/09c5b23debf3/03057555712-e1",
+                    "name": "03057555712-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1747929718115",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "77ec754d1635472e88b009c5b23debf3",
+                        "deliveryUrl": "https://static.zara.net/assets/public/77ec/754d/1635472e88b0/09c5b23debf3/03057555712-e1/03057555712-e1.jpg?ts=1747929718115",
+                        "deliveryPath": "/assets/public/77ec/754d/1635472e88b0/09c5b23debf3/03057555712-e1/03057555712-e1.jpg?ts=1747929718115"
+                    },
+                    "url": "https://static.zara.net/assets/public/77ec/754d/1635472e88b0/09c5b23debf3/03057555712-e1/03057555712-e1.jpg?ts=1747929718115&w={width}"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452697194,
+        "name": "חולצה עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#ECE7E1",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/b9d7/6a19/38a741dcaa16/e56cddc62298/07545376712-e1",
+                    "name": "07545376712-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1737018902661",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "b9d76a1938a741dcaa16e56cddc62298",
+                        "deliveryUrl": "https://static.zara.net/assets/public/b9d7/6a19/38a741dcaa16/e56cddc62298/07545376712-e1/07545376712-e1.jpg?ts=1737018902661",
+                        "deliveryPath": "/assets/public/b9d7/6a19/38a741dcaa16/e56cddc62298/07545376712-e1/07545376712-e1.jpg?ts=1737018902661"
+                    },
+                    "url": "https://static.zara.net/assets/public/b9d7/6a19/38a741dcaa16/e56cddc62298/07545376712-e1/07545376712-e1.jpg?ts=1737018902661&w={width}"
+                }
+            },
+            {
+                "colorName": "שחור",
+                "hexColor": "#251F1F"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 467225073,
+        "name": "חולצת משבצות בגזרת RELAXED FIT",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן / אדום",
+                "hexColor": "#A15C5E",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/21d5/8e18/94224f31ae05/1828bcecc9a0/07446332061-e1",
+                    "name": "07446332061-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754572990591",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "21d58e1894224f31ae051828bcecc9a0",
+                        "deliveryUrl": "https://static.zara.net/assets/public/21d5/8e18/94224f31ae05/1828bcecc9a0/07446332061-e1/07446332061-e1.jpg?ts=1754572990591",
+                        "deliveryPath": "/assets/public/21d5/8e18/94224f31ae05/1828bcecc9a0/07446332061-e1/07446332061-e1.jpg?ts=1754572990591"
+                    },
+                    "url": "https://static.zara.net/assets/public/21d5/8e18/94224f31ae05/1828bcecc9a0/07446332061-e1/07446332061-e1.jpg?ts=1754572990591&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/21d5/8e18/94224f31ae05/1828bcecc9a0/meta.json?ts=1754572990595"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452744044,
+        "name": "חולצת ז'קארד עם פסים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול בהיר",
+                "hexColor": "#6A7889",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/854c/5a71/50b44e8dae52/3a6f0622c293/05545501406-e1",
+                    "name": "05545501406-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1748350935162",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "854c5a7150b44e8dae523a6f0622c293",
+                        "deliveryUrl": "https://static.zara.net/assets/public/854c/5a71/50b44e8dae52/3a6f0622c293/05545501406-e1/05545501406-e1.jpg?ts=1748350935162",
+                        "deliveryPath": "/assets/public/854c/5a71/50b44e8dae52/3a6f0622c293/05545501406-e1/05545501406-e1.jpg?ts=1748350935162"
+                    },
+                    "url": "https://static.zara.net/assets/public/854c/5a71/50b44e8dae52/3a6f0622c293/05545501406-e1/05545501406-e1.jpg?ts=1748350935162&w={width}"
+                }
+            },
+            {
+                "colorName": "חאקי",
+                "hexColor": "#66996B"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 457437905,
+        "name": "חולצה עם הדפס פסים וכיתוב",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "רצועות",
+                "hexColor": "#D0D4E9",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/5758/ff94/d9e04f3b8e78/6c5287a20605/06085301105-e1",
+                    "name": "06085301105-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752066927559",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "5758ff94d9e04f3b8e786c5287a20605",
+                        "deliveryUrl": "https://static.zara.net/assets/public/5758/ff94/d9e04f3b8e78/6c5287a20605/06085301105-e1/06085301105-e1.jpg?ts=1752066927559",
+                        "deliveryPath": "/assets/public/5758/ff94/d9e04f3b8e78/6c5287a20605/06085301105-e1/06085301105-e1.jpg?ts=1752066927559"
+                    },
+                    "url": "https://static.zara.net/assets/public/5758/ff94/d9e04f3b8e78/6c5287a20605/06085301105-e1/06085301105-e1.jpg?ts=1752066927559&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/5758/ff94/d9e04f3b8e78/6c5287a20605/meta.json?ts=1752066927559"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452717692,
+        "name": "חולצת ז'קארד עם פסים ואפקט דהוי",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "כחול בהיר",
+                "hexColor": "#C6D7E0",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/26d9/0bc7/4896459fb413/d7ead39e06e7/06103365406-e1",
+                    "name": "06103365406-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753254980139",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "26d90bc74896459fb413d7ead39e06e7",
+                        "deliveryUrl": "https://static.zara.net/assets/public/26d9/0bc7/4896459fb413/d7ead39e06e7/06103365406-e1/06103365406-e1.jpg?ts=1753254980139",
+                        "deliveryPath": "/assets/public/26d9/0bc7/4896459fb413/d7ead39e06e7/06103365406-e1/06103365406-e1.jpg?ts=1753254980139"
+                    },
+                    "url": "https://static.zara.net/assets/public/26d9/0bc7/4896459fb413/d7ead39e06e7/06103365406-e1/06103365406-e1.jpg?ts=1753254980139&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/26d9/0bc7/4896459fb413/d7ead39e06e7/meta.json?ts=1753254980139"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452735224,
+        "name": "חולצה משוחררת RELAXED FIT",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#242526",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/e962/9859/5b504ad29bc8/40355d8fafdd/06416426800-e1",
+                    "name": "06416426800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1741163765313",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "e96298595b504ad29bc840355d8fafdd",
+                        "deliveryUrl": "https://static.zara.net/assets/public/e962/9859/5b504ad29bc8/40355d8fafdd/06416426800-e1/06416426800-e1.jpg?ts=1741163765313",
+                        "deliveryPath": "/assets/public/e962/9859/5b504ad29bc8/40355d8fafdd/06416426800-e1/06416426800-e1.jpg?ts=1741163765313"
+                    },
+                    "url": "https://static.zara.net/assets/public/e962/9859/5b504ad29bc8/40355d8fafdd/06416426800-e1/06416426800-e1.jpg?ts=1741163765313&w={width}"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 480490873,
+        "name": "חולצה משובצת עם רקמה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "צבעוני",
+                "hexColor": "#6C434A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/ae3a/4f36/054d431481a2/1334a4f921a2/06085324330-e1",
+                    "name": "06085324330-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1758194343332",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "ae3a4f36054d431481a21334a4f921a2",
+                        "deliveryUrl": "https://static.zara.net/assets/public/ae3a/4f36/054d431481a2/1334a4f921a2/06085324330-e1/06085324330-e1.jpg?ts=1758194343332",
+                        "deliveryPath": "/assets/public/ae3a/4f36/054d431481a2/1334a4f921a2/06085324330-e1/06085324330-e1.jpg?ts=1758194343332"
+                    },
+                    "url": "https://static.zara.net/assets/public/ae3a/4f36/054d431481a2/1334a4f921a2/06085324330-e1/06085324330-e1.jpg?ts=1758194343332&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/ae3a/4f36/054d431481a2/1334a4f921a2/meta.json?ts=1758194343338"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 457437911,
+        "name": "חולצה עם רקמה משולבת",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ורוד",
+                "hexColor": "#F0E6E5",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/d5e7/a30a/e7b44f50a1db/e3ca15ae8497/07446305620-e1",
+                    "name": "07446305620-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752066818125",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "d5e7a30ae7b44f50a1dbe3ca15ae8497",
+                        "deliveryUrl": "https://static.zara.net/assets/public/d5e7/a30a/e7b44f50a1db/e3ca15ae8497/07446305620-e1/07446305620-e1.jpg?ts=1752066818125",
+                        "deliveryPath": "/assets/public/d5e7/a30a/e7b44f50a1db/e3ca15ae8497/07446305620-e1/07446305620-e1.jpg?ts=1752066818125"
+                    },
+                    "url": "https://static.zara.net/assets/public/d5e7/a30a/e7b44f50a1db/e3ca15ae8497/07446305620-e1/07446305620-e1.jpg?ts=1752066818125&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/d5e7/a30a/e7b44f50a1db/e3ca15ae8497/meta.json?ts=1752066818125"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 464001547,
+        "name": "חולצה עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן / כחול־שמיים",
+                "hexColor": "#D1D5D2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/18ed/c645/9a1c40dc98e9/39f7a14e5ab6/04333371058-e1",
+                    "name": "04333371058-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751541473318",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "18edc6459a1c40dc98e939f7a14e5ab6",
+                        "deliveryUrl": "https://static.zara.net/assets/public/18ed/c645/9a1c40dc98e9/39f7a14e5ab6/04333371058-e1/04333371058-e1.jpg?ts=1751541473318",
+                        "deliveryPath": "/assets/public/18ed/c645/9a1c40dc98e9/39f7a14e5ab6/04333371058-e1/04333371058-e1.jpg?ts=1751541473318"
+                    },
+                    "url": "https://static.zara.net/assets/public/18ed/c645/9a1c40dc98e9/39f7a14e5ab6/04333371058-e1/04333371058-e1.jpg?ts=1751541473318&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/18ed/c645/9a1c40dc98e9/39f7a14e5ab6/meta.json?ts=1751541473318"
+                }
+            },
+            {
+                "colorName": "כחול/לבן",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "בז'",
+                "hexColor": "#E6D4AB"
+            },
+            {
+                "colorName": "בז' בהיר",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 471888045,
+        "name": "חולצת ז'קארד עם פסים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "חאקי",
+                "hexColor": "#7A7A64",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/8f13/ce13/0fa8401fbfb2/85f9043f8bd8/05545501505-e1",
+                    "name": "05545501505-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756979397303",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "8f13ce130fa8401fbfb285f9043f8bd8",
+                        "deliveryUrl": "https://static.zara.net/assets/public/8f13/ce13/0fa8401fbfb2/85f9043f8bd8/05545501505-e1/05545501505-e1.jpg?ts=1756979397303",
+                        "deliveryPath": "/assets/public/8f13/ce13/0fa8401fbfb2/85f9043f8bd8/05545501505-e1/05545501505-e1.jpg?ts=1756979397303"
+                    },
+                    "url": "https://static.zara.net/assets/public/8f13/ce13/0fa8401fbfb2/85f9043f8bd8/05545501505-e1/05545501505-e1.jpg?ts=1756979397303&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/8f13/ce13/0fa8401fbfb2/85f9043f8bd8/meta.json?ts=1756979397308"
+                }
+            },
+            {
+                "colorName": "כחול בהיר",
+                "hexColor": "#6F9DC5"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 480191855,
+        "name": "חולצה נשפכת פסים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "ורוד פסטל",
+                "hexColor": "#CEACAF",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/c4d3/8950/e4d9456a8dc4/fc62d62739cd/04975153621-e1",
+                    "name": "04975153621-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1758782669316",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "c4d38950e4d9456a8dc4fc62d62739cd",
+                        "deliveryUrl": "https://static.zara.net/assets/public/c4d3/8950/e4d9456a8dc4/fc62d62739cd/04975153621-e1/04975153621-e1.jpg?ts=1758782669316",
+                        "deliveryPath": "/assets/public/c4d3/8950/e4d9456a8dc4/fc62d62739cd/04975153621-e1/04975153621-e1.jpg?ts=1758782669316"
+                    },
+                    "url": "https://static.zara.net/assets/public/c4d3/8950/e4d9456a8dc4/fc62d62739cd/04975153621-e1/04975153621-e1.jpg?ts=1758782669316&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/c4d3/8950/e4d9456a8dc4/fc62d62739cd/meta.json?ts=1758782669322"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 467606696,
+        "name": "חולצה עם רקמה בניגוד צבעים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "אדום",
+                "hexColor": "#C22E3B",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/238a/e206/758142eea56e/a63e3d84dee4/06987308600-e1",
+                    "name": "06987308600-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1758530851442",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "238ae206758142eea56ea63e3d84dee4",
+                        "deliveryUrl": "https://static.zara.net/assets/public/238a/e206/758142eea56e/a63e3d84dee4/06987308600-e1/06987308600-e1.jpg?ts=1758530851442",
+                        "deliveryPath": "/assets/public/238a/e206/758142eea56e/a63e3d84dee4/06987308600-e1/06987308600-e1.jpg?ts=1758530851442"
+                    },
+                    "url": "https://static.zara.net/assets/public/238a/e206/758142eea56e/a63e3d84dee4/06987308600-e1/06987308600-e1.jpg?ts=1758530851442&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/238a/e206/758142eea56e/a63e3d84dee4/meta.json?ts=1758530851448"
+                }
+            },
+            {
+                "colorName": "כחול",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "אוף ווייט",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 484871425,
+        "name": "חולצת פסים עם כיס",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "מפוספס",
+                "hexColor": "#F1E3D8",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/20e5/5f3a/640749978226/dbe925a113aa/06757834104-e1",
+                    "name": "06757834104-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1759305319131",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "20e55f3a640749978226dbe925a113aa",
+                        "deliveryUrl": "https://static.zara.net/assets/public/20e5/5f3a/640749978226/dbe925a113aa/06757834104-e1/06757834104-e1.jpg?ts=1759305319131",
+                        "deliveryPath": "/assets/public/20e5/5f3a/640749978226/dbe925a113aa/06757834104-e1/06757834104-e1.jpg?ts=1759305319131"
+                    },
+                    "url": "https://static.zara.net/assets/public/20e5/5f3a/640749978226/dbe925a113aa/06757834104-e1/06757834104-e1.jpg?ts=1759305319131&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/20e5/5f3a/640749978226/dbe925a113aa/meta.json?ts=1759305319136"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 481423891,
+        "name": "ג'קט בלוק צבעים",
+        "price": 99.9,
+        "oldPrice": 249.0,
+        "availableColors": [
+            {
+                "colorName": "נוד / כחול־ים",
+                "hexColor": "#161921",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/9f0a/f54b/c1874d35b4aa/c46579596836/04092358066-e1",
+                    "name": "04092358066-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1760599228466",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "9f0af54bc1874d35b4aac46579596836",
+                        "deliveryUrl": "https://static.zara.net/assets/public/9f0a/f54b/c1874d35b4aa/c46579596836/04092358066-e1/04092358066-e1.jpg?ts=1760599228466",
+                        "deliveryPath": "/assets/public/9f0a/f54b/c1874d35b4aa/c46579596836/04092358066-e1/04092358066-e1.jpg?ts=1760599228466"
+                    },
+                    "url": "https://static.zara.net/assets/public/9f0a/f54b/c1874d35b4aa/c46579596836/04092358066-e1/04092358066-e1.jpg?ts=1760599228466&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/9f0a/f54b/c1874d35b4aa/c46579596836/meta.json?ts=1760599228471"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "59%",
+        "familyName": "SWEATSHIRT"
+    },
+    {
+        "id": 452708059,
+        "name": "תיק רחצה מעור",
+        "price": 99.9,
+        "oldPrice": 259.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#151515",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/262a/5f3b/c4b84f57bd75/8c684b839499/13710620800-e1",
+                    "name": "13710620800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751613148181",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "262a5f3bc4b84f57bd758c684b839499",
+                        "deliveryUrl": "https://static.zara.net/assets/public/262a/5f3b/c4b84f57bd75/8c684b839499/13710620800-e1/13710620800-e1.jpg?ts=1751613148181",
+                        "deliveryPath": "/assets/public/262a/5f3b/c4b84f57bd75/8c684b839499/13710620800-e1/13710620800-e1.jpg?ts=1751613148181"
+                    },
+                    "url": "https://static.zara.net/assets/public/262a/5f3b/c4b84f57bd75/8c684b839499/13710620800-e1/13710620800-e1.jpg?ts=1751613148181&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/262a/5f3b/c4b84f57bd75/8c684b839499/meta.json?ts=1751613148181"
+                }
+            },
+            {
+                "colorName": "חום",
+                "hexColor": "#7D5B41"
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "61%",
+        "familyName": "HAND BAG-RUCKSACK"
+    },
+    {
+        "id": 460011667,
+        "name": "תיק צד עם שרשרת",
+        "price": 99.9,
+        "oldPrice": 259.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#0A0A0A",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/5360/0268/688344a587f6/4f1286a40a8d/13529620800-e1",
+                    "name": "13529620800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1753692976563",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "53600268688344a587f64f1286a40a8d",
+                        "deliveryUrl": "https://static.zara.net/assets/public/5360/0268/688344a587f6/4f1286a40a8d/13529620800-e1/13529620800-e1.jpg?ts=1753692976563",
+                        "deliveryPath": "/assets/public/5360/0268/688344a587f6/4f1286a40a8d/13529620800-e1/13529620800-e1.jpg?ts=1753692976563"
+                    },
+                    "url": "https://static.zara.net/assets/public/5360/0268/688344a587f6/4f1286a40a8d/13529620800-e1/13529620800-e1.jpg?ts=1753692976563&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/5360/0268/688344a587f6/4f1286a40a8d/meta.json?ts=1753692976570"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "61%",
+        "familyName": "HAND BAG-RUCKSACK"
+    },
+    {
+        "id": 452860356,
+        "name": "נעלי סקייטבורד עם סוליה עבה",
+        "price": 89.9,
+        "oldPrice": 349.0,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#191919",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/c133/18d1/e3c6431a8b7a/283943a72ef7/12262620800-e1",
+                    "name": "12262620800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754988940780",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "c13318d1e3c6431a8b7a283943a72ef7",
+                        "deliveryUrl": "https://static.zara.net/assets/public/c133/18d1/e3c6431a8b7a/283943a72ef7/12262620800-e1/12262620800-e1.jpg?ts=1754988940780",
+                        "deliveryPath": "/assets/public/c133/18d1/e3c6431a8b7a/283943a72ef7/12262620800-e1/12262620800-e1.jpg?ts=1754988940780"
+                    },
+                    "url": "https://static.zara.net/assets/public/c133/18d1/e3c6431a8b7a/283943a72ef7/12262620800-e1/12262620800-e1.jpg?ts=1754988940780&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/c133/18d1/e3c6431a8b7a/283943a72ef7/meta.json?ts=1754988940786"
+                }
+            },
+            {
+                "colorName": "צבעוני",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "74%",
+        "familyName": "SPORT SHOES"
+    },
+    {
+        "id": 452708148,
+        "name": "ארנק כרטיסים פשוט",
+        "price": 29.9,
+        "oldPrice": 99.9,
+        "availableColors": [
+            {
+                "colorName": "שחור",
+                "hexColor": "#3E3E3E",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/b58d/6325/111b48c08a5f/03183369b59a/13808620800-e1",
+                    "name": "13808620800-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1747143210789",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "b58d6325111b48c08a5f03183369b59a",
+                        "deliveryUrl": "https://static.zara.net/assets/public/b58d/6325/111b48c08a5f/03183369b59a/13808620800-e1/13808620800-e1.jpg?ts=1747143210789",
+                        "deliveryPath": "/assets/public/b58d/6325/111b48c08a5f/03183369b59a/13808620800-e1/13808620800-e1.jpg?ts=1747143210789"
+                    },
+                    "url": "https://static.zara.net/assets/public/b58d/6325/111b48c08a5f/03183369b59a/13808620800-e1/13808620800-e1.jpg?ts=1747143210789&w={width}"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "70%",
+        "familyName": "WALLETS"
+    },
+    {
+        "id": 465591942,
+        "name": "חולצה 100% בד רמי עם הדפס תותים",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "חאקי",
+                "hexColor": "#4A4937",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/cc2e/d7eb/be194d319731/fe28b0b09849/04939186505-e1",
+                    "name": "04939186505-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754048817567",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "cc2ed7ebbe194d319731fe28b0b09849",
+                        "deliveryUrl": "https://static.zara.net/assets/public/cc2e/d7eb/be194d319731/fe28b0b09849/04939186505-e1/04939186505-e1.jpg?ts=1754048817567",
+                        "deliveryPath": "/assets/public/cc2e/d7eb/be194d319731/fe28b0b09849/04939186505-e1/04939186505-e1.jpg?ts=1754048817567"
+                    },
+                    "url": "https://static.zara.net/assets/public/cc2e/d7eb/be194d319731/fe28b0b09849/04939186505-e1/04939186505-e1.jpg?ts=1754048817567&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/cc2e/d7eb/be194d319731/fe28b0b09849/meta.json?ts=1754048817572"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 464413936,
+        "name": "חולצת ז'קארד עם פסים",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "חום",
+                "hexColor": "#2F221B",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/1340/1ca5/3ec74352a64e/414287a52d48/05782042700-e1",
+                    "name": "05782042700-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1752506480727",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "13401ca53ec74352a64e414287a52d48",
+                        "deliveryUrl": "https://static.zara.net/assets/public/1340/1ca5/3ec74352a64e/414287a52d48/05782042700-e1/05782042700-e1.jpg?ts=1752506480727",
+                        "deliveryPath": "/assets/public/1340/1ca5/3ec74352a64e/414287a52d48/05782042700-e1/05782042700-e1.jpg?ts=1752506480727"
+                    },
+                    "url": "https://static.zara.net/assets/public/1340/1ca5/3ec74352a64e/414287a52d48/05782042700-e1/05782042700-e1.jpg?ts=1752506480727&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/1340/1ca5/3ec74352a64e/414287a52d48/meta.json?ts=1752506481607"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463782820,
+        "name": "חולצת ז'קארד פרחונית",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "חום",
+                "hexColor": "#5A4A3F",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/62b7/fd0b/82984cdf8fd7/84b73a4853ee/01437377700-e1",
+                    "name": "01437377700-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756974648595",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "62b7fd0b82984cdf8fd784b73a4853ee",
+                        "deliveryUrl": "https://static.zara.net/assets/public/62b7/fd0b/82984cdf8fd7/84b73a4853ee/01437377700-e1/01437377700-e1.jpg?ts=1756974648595",
+                        "deliveryPath": "/assets/public/62b7/fd0b/82984cdf8fd7/84b73a4853ee/01437377700-e1/01437377700-e1.jpg?ts=1756974648595"
+                    },
+                    "url": "https://static.zara.net/assets/public/62b7/fd0b/82984cdf8fd7/84b73a4853ee/01437377700-e1/01437377700-e1.jpg?ts=1756974648595&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/62b7/fd0b/82984cdf8fd7/84b73a4853ee/meta.json?ts=1756974648602"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463521109,
+        "name": "חולצת פולו מ-100% פשתן",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "Light beige",
+                "hexColor": "#C8C5B2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/5160/2371/6c0d4a2ba613/2ef2101d78ec/04336181092-e1",
+                    "name": "04336181092-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1745395813340",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "516023716c0d4a2ba6132ef2101d78ec",
+                        "deliveryUrl": "https://static.zara.net/assets/public/5160/2371/6c0d4a2ba613/2ef2101d78ec/04336181092-e1/04336181092-e1.jpg?ts=1745395813340",
+                        "deliveryPath": "/assets/public/5160/2371/6c0d4a2ba613/2ef2101d78ec/04336181092-e1/04336181092-e1.jpg?ts=1745395813340"
+                    },
+                    "url": "https://static.zara.net/assets/public/5160/2371/6c0d4a2ba613/2ef2101d78ec/04336181092-e1/04336181092-e1.jpg?ts=1745395813340&w={width}"
+                }
+            },
+            {
+                "colorName": "לבן",
+                "hexColor": "#FFFFFF"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 476409810,
+        "name": "חולצת בוקסי",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#F7F5F3",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/54f9/b3e1/14324d248010/4c39d09ca372/02688440250-e1",
+                    "name": "02688440250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1757577849216",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "54f9b3e114324d2480104c39d09ca372",
+                        "deliveryUrl": "https://static.zara.net/assets/public/54f9/b3e1/14324d248010/4c39d09ca372/02688440250-e1/02688440250-e1.jpg?ts=1757577849216",
+                        "deliveryPath": "/assets/public/54f9/b3e1/14324d248010/4c39d09ca372/02688440250-e1/02688440250-e1.jpg?ts=1757577849216"
+                    },
+                    "url": "https://static.zara.net/assets/public/54f9/b3e1/14324d248010/4c39d09ca372/02688440250-e1/02688440250-e1.jpg?ts=1757577849216&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/54f9/b3e1/14324d248010/4c39d09ca372/meta.json?ts=1757577849222"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463521110,
+        "name": "חולצת פולו מ-100% פשתן",
+        "price": 79.9,
+        "oldPrice": 279.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#F4F6F5",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/cb20/72cf/3d9c4068b618/216d9f1b073f/04336181250-e1",
+                    "name": "04336181250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1745395814158",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "cb2072cf3d9c4068b618216d9f1b073f",
+                        "deliveryUrl": "https://static.zara.net/assets/public/cb20/72cf/3d9c4068b618/216d9f1b073f/04336181250-e1/04336181250-e1.jpg?ts=1745395814158",
+                        "deliveryPath": "/assets/public/cb20/72cf/3d9c4068b618/216d9f1b073f/04336181250-e1/04336181250-e1.jpg?ts=1745395814158"
+                    },
+                    "url": "https://static.zara.net/assets/public/cb20/72cf/3d9c4068b618/216d9f1b073f/04336181250-e1/04336181250-e1.jpg?ts=1745395814158&w={width}"
+                }
+            },
+            {
+                "colorName": "Light beige",
+                "hexColor": "#788A42"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "71%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 452739508,
+        "name": "בושם 001 SYNTH AURA בנפח 100 מ\"ל (3.38 אונק’ נוזל)",
+        "price": 69.9,
+        "oldPrice": 169.9,
+        "availableColors": [
+            {
+                "colorName": "TINTED LEATHER",
+                "hexColor": "#DFE6ED",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/14b0/c941/512c414285b0/39cefe1fc25b/20213013999-e1",
+                    "name": "20213013999-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1756469553075",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "14b0c941512c414285b039cefe1fc25b",
+                        "deliveryUrl": "https://static.zara.net/assets/public/14b0/c941/512c414285b0/39cefe1fc25b/20213013999-e1/20213013999-e1.jpg?ts=1756469553075",
+                        "deliveryPath": "/assets/public/14b0/c941/512c414285b0/39cefe1fc25b/20213013999-e1/20213013999-e1.jpg?ts=1756469553075"
+                    },
+                    "url": "https://static.zara.net/assets/public/14b0/c941/512c414285b0/39cefe1fc25b/20213013999-e1/20213013999-e1.jpg?ts=1756469553075&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/14b0/c941/512c414285b0/39cefe1fc25b/meta.json?ts=1756469553080"
+                }
+            }
+        ],
+        "kind": "Fragance",
+        "availability": "in_stock",
+        "discountPercentage": "58%",
+        "familyName": "EAU DE PARFUM"
+    },
+    {
+        "id": 456164317,
+        "name": "נרתיק משקפיים מעור",
+        "price": 69.9,
+        "oldPrice": 189.9,
+        "availableColors": [
+            {
+                "colorName": "חום",
+                "hexColor": "#645F59",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/a731/7104/d7b74e7cbded/cce080e12739/13960620700-e1",
+                    "name": "13960620700-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1755788552759",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "a7317104d7b74e7cbdedcce080e12739",
+                        "deliveryUrl": "https://static.zara.net/assets/public/a731/7104/d7b74e7cbded/cce080e12739/13960620700-e1/13960620700-e1.jpg?ts=1755788552759",
+                        "deliveryPath": "/assets/public/a731/7104/d7b74e7cbded/cce080e12739/13960620700-e1/13960620700-e1.jpg?ts=1755788552759"
+                    },
+                    "url": "https://static.zara.net/assets/public/a731/7104/d7b74e7cbded/cce080e12739/13960620700-e1/13960620700-e1.jpg?ts=1755788552759&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/a731/7104/d7b74e7cbded/cce080e12739/meta.json?ts=1755788552765"
+                }
+            }
+        ],
+        "kind": "Other",
+        "availability": "in_stock",
+        "discountPercentage": "63%",
+        "familyName": "ACCESSORIES"
+    },
+    {
+        "id": 452708230,
+        "name": "חולצה עם טקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "בז'",
+                "hexColor": "#F7F6F0",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/aca3/c2a4/4b3b4649911c/c55e9f465767/04333371712-000-r",
+                    "name": "04333371712-000-r",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1754555306068",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "aca3c2a44b3b4649911cc55e9f465767",
+                        "deliveryUrl": "https://static.zara.net/assets/public/aca3/c2a4/4b3b4649911c/c55e9f465767/04333371712-000-r/04333371712-000-r.jpg?ts=1754555306068",
+                        "deliveryPath": "/assets/public/aca3/c2a4/4b3b4649911c/c55e9f465767/04333371712-000-r/04333371712-000-r.jpg?ts=1754555306068"
+                    },
+                    "url": "https://static.zara.net/assets/public/aca3/c2a4/4b3b4649911c/c55e9f465767/04333371712-000-r/04333371712-000-r.jpg?ts=1754555306068&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/aca3/c2a4/4b3b4649911c/c55e9f465767/meta.json?ts=1754555306073"
+                }
+            },
+            {
+                "colorName": "כחול/לבן",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "לבן / כחול־שמיים",
+                "hexColor": "#6F9DC5"
+            },
+            {
+                "colorName": "בז' בהיר",
+                "hexColor": "#E6D4AB"
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 459131811,
+        "name": "חולצה עם פסים וטקסטורה",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "אפור כהה",
+                "hexColor": "#3B3E41",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/9931/942b/4b0247ce8e14/d8045d577ef4/05555119922-e1",
+                    "name": "05555119922-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1750671034397",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "9931942b4b0247ce8e14d8045d577ef4",
+                        "deliveryUrl": "https://static.zara.net/assets/public/9931/942b/4b0247ce8e14/d8045d577ef4/05555119922-e1/05555119922-e1.jpg?ts=1750671034397",
+                        "deliveryPath": "/assets/public/9931/942b/4b0247ce8e14/d8045d577ef4/05555119922-e1/05555119922-e1.jpg?ts=1750671034397"
+                    },
+                    "url": "https://static.zara.net/assets/public/9931/942b/4b0247ce8e14/d8045d577ef4/05555119922-e1/05555119922-e1.jpg?ts=1750671034397&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/9931/942b/4b0247ce8e14/d8045d577ef4/meta.json?ts=1750671034397"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 463516032,
+        "name": "חולצה משוחררת עם פסים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "לבן",
+                "hexColor": "#F7F6F0",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/5880/f1e3/1021441b9dcc/35de18677e90/00399048250-e1",
+                    "name": "00399048250-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1739457863422",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "5880f1e31021441b9dcc35de18677e90",
+                        "deliveryUrl": "https://static.zara.net/assets/public/5880/f1e3/1021441b9dcc/35de18677e90/00399048250-e1/00399048250-e1.jpg?ts=1739457863422",
+                        "deliveryPath": "/assets/public/5880/f1e3/1021441b9dcc/35de18677e90/00399048250-e1/00399048250-e1.jpg?ts=1739457863422"
+                    },
+                    "url": "https://static.zara.net/assets/public/5880/f1e3/1021441b9dcc/35de18677e90/00399048250-e1/00399048250-e1.jpg?ts=1739457863422&w={width}"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    },
+    {
+        "id": 458120090,
+        "name": "חולצה עם הדפס בצבעים מנוגדים",
+        "price": 59.9,
+        "oldPrice": 229.0,
+        "availableColors": [
+            {
+                "colorName": "נוד בהיר",
+                "hexColor": "#DDD4C2",
+                "colorCut": {
+                    "datatype": "xmedia",
+                    "set": 2,
+                    "type": "image",
+                    "kind": "colorcut",
+                    "path": "/assets/public/3f6c/a065/2ec64030b1b0/1317e2e8a3a2/04915183715-e1",
+                    "name": "04915183715-e1",
+                    "width": 2048,
+                    "height": 3072,
+                    "timestamp": "1751893110827",
+                    "allowedScreens": [
+                        "small",
+                        "large"
+                    ],
+                    "extraInfo": {
+                        "originalName": "r",
+                        "assetId": "3f6ca0652ec64030b1b01317e2e8a3a2",
+                        "deliveryUrl": "https://static.zara.net/assets/public/3f6c/a065/2ec64030b1b0/1317e2e8a3a2/04915183715-e1/04915183715-e1.jpg?ts=1751893110827",
+                        "deliveryPath": "/assets/public/3f6c/a065/2ec64030b1b0/1317e2e8a3a2/04915183715-e1/04915183715-e1.jpg?ts=1751893110827"
+                    },
+                    "url": "https://static.zara.net/assets/public/3f6c/a065/2ec64030b1b0/1317e2e8a3a2/04915183715-e1/04915183715-e1.jpg?ts=1751893110827&w={width}",
+                    "metaUrl": "https://static.zara.net/assets/public/3f6c/a065/2ec64030b1b0/1317e2e8a3a2/meta.json?ts=1751893110827"
+                }
+            }
+        ],
+        "kind": "Wear",
+        "availability": "in_stock",
+        "discountPercentage": "73%",
+        "familyName": "SHIRT"
+    }
+]
