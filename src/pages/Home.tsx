@@ -104,7 +104,7 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen className="ion-padding" style={{ '--background': isDark ? '#000000' : '#f8f9fa' }}>
         
-        <HeroBanner />
+        <HeroBanner isDark={isDark} />
 
         <div className={styles.categoryScroll}>
             {categories.map(cat => (
