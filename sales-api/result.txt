@@ -1,6 +1,0 @@
---- START COMPARISON ---
-Small (SKU 452706207): Found 0 stores.
-Medium (SKU 452706209): Found 0 stores.
-XXL (SKU 452706212): Found 0 stores.
---- END COMPARISON ---
-UNCERTAIN: All sizes returned same count (or 0).

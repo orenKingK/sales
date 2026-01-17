@@ -1,0 +1,14 @@
+{
+    "name": "sales-monorepo",
+    "private": true,
+    "workspaces": [
+        "sales-app",
+        "sales-api"
+    ],
+    "scripts": {
+        "dev": "npm run dev --workspace=sales-app",
+        "dev:api": "npm run start:dev --workspace=sales-api",
+        "build": "npm run build --workspaces",
+        "test": "npm run test --workspaces"
+    }
+}
