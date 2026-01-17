@@ -55,11 +55,11 @@ const ProductModal: React.FC<ProductModalProps> = ({ isOpen, onClose, product })
                      <div className={styles.priceContainer}>
                         {product.price > product.salePrice && (
                              <span className={styles.originalPrice}>
-                                 ₪{product.price.toFixed(0)}
+                                 ₪{product.price.toFixed(2)}
                              </span>
                         )}
                         <span className={styles.salePrice}>
-                             ₪{product.salePrice.toFixed(0)}
+                             ₪{product.salePrice.toFixed(2)}
                         </span>
                      </div>
                  </div>

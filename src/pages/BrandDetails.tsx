@@ -265,11 +265,11 @@ const BrandDetails: React.FC = () => {
                     
                     <div className={styles.priceRow}>
                         <div className={product.price > product.salePrice ? styles.salePrice : styles.normalPrice}>
-                            ₪{product.salePrice.toFixed(0)}
+                            ₪{product.salePrice.toFixed(2)}
                         </div>
                         {product.price > product.salePrice && (
                             <div className={styles.originalPrice}>
-                                ₪{product.price.toFixed(0)}
+                                ₪{product.price.toFixed(2)}
                             </div>
                         )}
                     </div>
